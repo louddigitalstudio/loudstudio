@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover">
+
+<!-- ============ SEO ============ -->
+<title>Contact | LOUD Studio, agence social media 100% remote</title>
+<meta name="description" content="Un projet social media, branding, ads ou site web ? Écris à LOUD Studio, agence 100% remote. Réponse sous 24h, en français, anglais ou arabe.">
+<link rel="canonical" href="https://loudstudio.co/contact.html">
+<meta name="robots" content="index,follow">
+<meta name="theme-color" content="#0a0a0a">
+
+<!-- Open Graph / réseaux sociaux -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="LOUD Studio">
+<meta property="og:title" content="Parlons de ta marque | LOUD Studio">
+<meta property="og:description" content="Agence social media et marketing digital 100% remote. Écris-nous, on te répond sous 24h.">
+<meta property="og:url" content="https://loudstudio.co/contact.html">
+<meta property="og:image" content="https://loudstudio.co/assets/og-contact.jpg">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ar_AR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Parlons de ta marque | LOUD Studio">
+<meta name="twitter:description" content="Agence social media et marketing digital 100% remote. Réponse sous 24h.">
+<meta name="twitter:image" content="https://loudstudio.co/assets/og-contact.jpg">
+
+<!-- Données structurées -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "LOUD Studio",
+  "url": "https://loudstudio.co/",
+  "logo": "https://loudstudio.co/assets/loud-logo.png",
+  "image": "https://loudstudio.co/assets/og-contact.jpg",
+  "description": "Agence social media et marketing digital 100% remote : social media, branding, ads et sites web pour personal brands, restaurants, marques bien-être et entreprises tech.",
+  "email": "loud.digitalstudio@gmail.com",
+  "telephone": "+33751078260",
+  "priceRange": "€€",
+  "knowsLanguage": ["fr", "en", "ar"],
+  "areaServed": [
+    {"@type": "Place", "name": "Europe"},
+    {"@type": "Place", "name": "Middle East and North Africa"},
+    {"@type": "Place", "name": "North America"},
+    {"@type": "Place", "name": "Francophone Africa"}
+  ],
+  "serviceType": ["Social media management", "Branding", "Paid ads", "Web design"],
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+    "opens": "09:00",
+    "closes": "19:00"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "sales",
+    "email": "loud.digitalstudio@gmail.com",
+    "telephone": "+33751078260",
+    "availableLanguage": ["French", "English", "Arabic"]
+  },
+  "sameAs": [
+    "https://instagram.com/loudstudio.co",
+    "https://www.linkedin.com/company/loudstudio"
+  ]
+}
+</script>
+
+<!-- Thème et langue appliqués avant le rendu pour éviter un flash (préférences partagées avec les autres pages) -->
+<script>
+(function () {
+  var d = document.documentElement;
+  d.className += " js";
+  try {
+    if (localStorage.getItem("loud-theme") === "light") d.setAttribute("data-theme", "light");
+    var l = localStorage.getItem("loud-lang");
+    if (l === "ar") { d.lang = "ar"; d.dir = "rtl"; }
+  } catch (e) {}
+})();
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@200;300;400;500&family=Noto+Kufi+Arabic:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+<style>
+/* =========================================================
+   LOUD STUDIO · CONTACT
+   Les tokens reprennent les noms de variables du site
+   (index.html / loud-studio.html) avec les valeurs du design system.
+   ========================================================= */
+
+/* ============ RESET & ROOT ============ */
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#0a0a0a;
+  --bg0:#080808;
+  --bg2:#111;
+  --bg-alt:#0e0e0e;
+  --white:#f2ede8;
+  --white2:rgba(242,237,232,0.45);   /* texte atténué (grands textes, décor) */
+  --white3:rgba(242,237,232,0.18);   /* texte très discret (décor uniquement) */
+  --ink-soft:rgba(242,237,232,0.62); /* texte courant atténué, contraste AA */
+  --ph:rgba(242,237,232,0.5);        /* placeholders, contraste AA */
+  --ginger:#C8501A;
+  --ginger2:#A8400F;
+  --ginger-ink:#D9622C;              /* ginger pour petits textes, contraste AA sur fond sombre */
+  --ginger-glow:rgba(200,80,26,0.15);
+  --ginger-dim:rgba(200,80,26,0.08);
+  --glass:rgba(255,255,255,0.03);
+  --glass-b:rgba(255,255,255,0.07);
+  --nav-bg:rgba(10,10,10,.9);
+  --mob-bg:rgba(8,8,8,.98);
+  --ff-d:"Bebas Neue",sans-serif;
+  --ff-b:"DM Sans",sans-serif;
+  --ff-ar:"Noto Kufi Arabic",sans-serif;
+  --ease:cubic-bezier(0.16,1,0.3,1);
+  --ease2:cubic-bezier(0.4,0,0.2,1);
+  --pad-x:56px;
+  --pad-y:120px;
+}
+/* Mode clair : valeurs reprises du site */
+[data-theme="light"]{
+  --bg:#f5f2ed;
+  --bg0:#f5f2ed;
+  --bg2:#ede9e2;
+  --bg-alt:#ede9e2;
+  --white:#1a1410;
+  --white2:rgba(26,20,16,0.6);
+  --white3:rgba(26,20,16,0.15);
+  --ink-soft:rgba(26,20,16,0.7);
+  --ph:rgba(26,20,16,0.6);
+  --ginger-ink:#A8400F;
+  --glass:rgba(0,0,0,0.03);
+  --glass-b:rgba(0,0,0,0.08);
+  --nav-bg:rgba(245,242,237,.92);
+  --mob-bg:rgba(245,242,237,.98);
+}
+html{scroll-behavior:smooth;font-size:16px;-webkit-text-size-adjust:100%}
+body{background:var(--bg);color:var(--white);font-family:var(--ff-b);font-weight:300;overflow-x:hidden;transition:background .4s,color .4s;-webkit-font-smoothing:antialiased}
+body.ar{font-family:var(--ff-ar)}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+button,input,select,textarea{font:inherit;color:inherit}
+::selection{background:var(--ginger);color:#fff}
+::-webkit-scrollbar{width:2px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:var(--ginger);border-radius:1px}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* Focus clavier visible partout */
+:focus{outline:none}
+:focus-visible{outline:2px solid var(--ginger);outline-offset:3px;border-radius:2px}
+
+/* Lien d'évitement */
+.skip{position:fixed;top:12px;inset-inline-start:12px;z-index:1000;background:var(--ginger);color:#fff;padding:12px 18px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;border-radius:2px;transform:translateY(-200%);transition:transform .3s var(--ease)}
+.skip:focus{transform:none}
+
+/* Icônes SVG (sprite) */
+.ico{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;flex-shrink:0}
+[dir="rtl"] .flip-rtl{transform:scaleX(-1)}
+
+/* ============ NOISE ============ */
+.noise{position:fixed;inset:0;z-index:1;pointer-events:none;opacity:.018;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* ============ NAV (reprise du site) ============ */
+nav{position:fixed;top:0;left:0;right:0;z-index:500;display:flex;justify-content:space-between;align-items:center;padding:20px var(--pad-x);transition:background .5s,backdrop-filter .5s,padding .4s}
+nav.scrolled{background:var(--nav-bg);backdrop-filter:blur(24px);-webkit-backdrop-filter:blur(24px);padding:12px var(--pad-x);border-bottom:1px solid var(--glass-b)}
+.nav-logo{display:flex;align-items:center;min-height:44px}
+.nav-logo img{height:28px;width:auto;transition:opacity .3s;filter:drop-shadow(0 0 12px rgba(200,80,26,0.2))}
+.nav-logo:hover img{opacity:.7}
+[data-theme="light"] .nav-logo img,[data-theme="light"] .ft-logo img{filter:brightness(0)}
+.nav-links{display:flex;gap:32px;list-style:none}
+.nav-links a{display:inline-flex;align-items:center;justify-content:center;min-height:44px;min-width:44px;font-size:11px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);transition:color .3s;position:relative}
+.nav-links a::after{content:"";position:absolute;bottom:10px;inset-inline-start:0;width:0;height:1px;background:var(--ginger);transition:width .35s var(--ease)}
+.nav-links a:hover,.nav-links a[aria-current="page"]{color:var(--white)}
+.nav-links a:hover::after,.nav-links a[aria-current="page"]::after{width:100%}
+.nav-links a[aria-current="page"]{color:var(--ginger-ink)}
+.nav-r{display:flex;align-items:center;gap:12px}
+.lang-sw{display:flex;gap:2px;background:var(--glass);border:1px solid var(--glass-b);border-radius:20px;padding:3px;backdrop-filter:blur(10px)}
+.lang-btn{font-size:10px;font-weight:500;letter-spacing:.08em;padding:6px 11px;border-radius:18px;border:none;background:transparent;color:var(--ink-soft);cursor:pointer;transition:background .25s,color .25s}
+.lang-btn:hover{color:var(--white)}
+.lang-btn.on{background:var(--ginger);color:#fff;font-weight:600}
+.theme-btn{width:44px;height:44px;border:1px solid var(--glass-b);border-radius:50%;background:var(--glass);display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:15px;color:var(--white);transition:border-color .3s,background .3s;backdrop-filter:blur(10px)}
+.theme-btn:hover{border-color:var(--ginger)}
+.theme-btn .ico{width:18px;height:18px;transition:transform .5s var(--ease)}
+[data-theme="light"] .theme-btn .ico{transform:rotate(180deg)}
+.btn-cta{display:inline-flex;align-items:center;min-height:44px;font-size:10px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:#fff;background:var(--ginger);padding:0 22px;border-radius:2px;transition:background .3s,transform .2s;white-space:nowrap}
+.btn-cta:hover{background:var(--ginger2);transform:translateY(-1px)}
+.ham{display:none;flex-direction:column;justify-content:center;align-items:center;gap:5px;cursor:pointer;width:44px;height:44px;background:none;border:none}
+.ham span{display:block;width:20px;height:1.5px;background:var(--white);transition:transform .4s var(--ease),opacity .4s}
+.ham[aria-expanded="true"] span:nth-child(1){transform:translateY(6.5px) rotate(45deg)}
+.ham[aria-expanded="true"] span:nth-child(2){opacity:0;transform:scaleX(0)}
+.ham[aria-expanded="true"] span:nth-child(3){transform:translateY(-6.5px) rotate(-45deg)}
+
+/* MENU MOBILE */
+.mob-nav{position:fixed;top:0;inset-inline-end:0;width:min(300px,88vw);height:100vh;height:100dvh;background:var(--mob-bg);backdrop-filter:blur(40px);border-inline-start:1px solid var(--glass-b);z-index:600;transform:translateX(110%);visibility:hidden;transition:transform .55s var(--ease),visibility 0s .55s;display:flex;flex-direction:column;justify-content:center;padding:56px 32px}
+[dir="rtl"] .mob-nav{transform:translateX(-110%)}
+.mob-nav.open{transform:translateX(0);visibility:visible;transition:transform .55s var(--ease),visibility 0s}
+.mob-nav a{font-family:var(--ff-d);font-size:36px;letter-spacing:.04em;color:var(--ink-soft);transition:color .3s;display:flex;align-items:center;min-height:52px}
+body.ar .mob-nav a{font-family:var(--ff-ar);font-weight:700;font-size:24px;letter-spacing:0}
+.mob-nav a:hover,.mob-nav a[aria-current="page"]{color:var(--ginger-ink)}
+.mob-btns{display:flex;gap:8px;margin-top:28px;padding-top:24px;border-top:1px solid var(--glass-b);flex-wrap:wrap}
+.mob-btns .lang-btn{border:1px solid var(--glass-b);border-radius:22px;min-width:52px;min-height:44px;font-size:12px}
+.mob-btns .lang-btn.on{background:var(--ginger);border-color:var(--ginger);color:#fff}
+
+/* ============ PARTAGÉ ============ */
+.s{position:relative;z-index:10}
+.wrap{max-width:1200px;margin-inline:auto}
+.section{padding:var(--pad-y) var(--pad-x);border-top:1px solid var(--glass-b)}
+.sec-tag,.subpage-tag{font-size:10px;font-weight:400;letter-spacing:.4em;text-transform:uppercase;color:var(--ginger-ink);margin-bottom:28px;display:flex;align-items:center;gap:14px}
+.sec-tag::before,.subpage-tag::before{content:"";width:24px;height:1px;background:var(--ginger);opacity:.6;flex-shrink:0}
+.sec-title{font-family:var(--ff-d);font-weight:400;font-size:clamp(44px,6.5vw,100px);line-height:.9;color:var(--white);letter-spacing:.02em;margin-bottom:40px}
+.sec-title .ol,.subpage-h1 .ol{-webkit-text-stroke:1.5px var(--white2);color:transparent}
+.sec-title .ac,.subpage-h1 .ac{color:var(--ginger);text-shadow:0 0 40px rgba(200,80,26,0.3)}
+.sec-title span,.subpage-h1 span{display:block}
+.sec-lead{font-size:16px;line-height:1.8;color:var(--ink-soft);max-width:520px}
+
+/* Arabe : police dédiée, pas d'espacement de lettres (casse les liaisons), interligne adapté */
+body.ar .sec-title,body.ar .subpage-h1{font-family:var(--ff-ar);font-weight:900;line-height:1.25;letter-spacing:0}
+body.ar .sec-title .ol,body.ar .subpage-h1 .ol{-webkit-text-stroke:0;color:var(--white2)}
+body.ar .sec-tag,body.ar .subpage-tag,body.ar .lbl,body.ar .info-k,body.ar .card-k,body.ar .btn-main,body.ar .btn-ghost,body.ar .ft-col-title,body.ar .nav-links a,body.ar .btn-cta,body.ar .promise,body.ar .book-meta,body.ar .sp-back{letter-spacing:0}
+
+/* Boutons */
+.btn-main{font-family:var(--ff-d);font-size:17px;letter-spacing:.16em;color:#fff;background:var(--ginger);min-height:52px;padding:0 32px;display:inline-flex;align-items:center;justify-content:center;gap:12px;position:relative;overflow:hidden;border:none;border-radius:2px;cursor:pointer;transition:background .3s,transform .3s,box-shadow .4s}
+.btn-main::before{content:"";position:absolute;inset:0;background:rgba(255,255,255,.08);transform:translateX(-101%);transition:transform .45s var(--ease)}
+[dir="rtl"] .btn-main::before{transform:translateX(101%)}
+.btn-main:hover::before{transform:translateX(0)}
+.btn-main:hover{background:var(--ginger2);transform:translateY(-2px);box-shadow:0 8px 40px rgba(200,80,26,0.4),0 0 80px rgba(200,80,26,0.15)}
+.btn-main:active{transform:translateY(0)}
+.btn-main .ico{width:18px;height:18px;position:relative}
+.btn-main > *{position:relative}
+body.ar .btn-main{font-family:var(--ff-ar);font-weight:700;font-size:15px}
+.btn-ghost{font-size:11px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--white);border:1px solid var(--glass-b);background:var(--glass);min-height:52px;padding:0 26px;display:inline-flex;align-items:center;justify-content:center;gap:10px;border-radius:2px;cursor:pointer;transition:color .3s,border-color .3s,box-shadow .3s,background .3s}
+.btn-ghost:hover{color:var(--ginger-ink);border-color:rgba(200,80,26,.5);box-shadow:0 0 30px var(--ginger-glow)}
+.btn-ghost .ico{width:18px;height:18px}
+
+/* ============ HERO ============ */
+.ct-hero{position:relative;z-index:10;padding:156px var(--pad-x) 96px;overflow:hidden}
+.ct-orb{position:absolute;top:-30%;inset-inline-end:-15%;width:min(900px,90vw);aspect-ratio:1;border-radius:50%;background:radial-gradient(circle at 50% 50%,rgba(200,80,26,.22) 0%,rgba(140,50,10,.06) 45%,transparent 70%);pointer-events:none;animation:orbF 14s ease-in-out infinite;z-index:-1}
+@keyframes orbF{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(-2%,4%) scale(1.06)}}
+.sp-back{display:inline-flex;align-items:center;gap:10px;min-height:44px;font-size:11px;font-weight:400;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft);margin-bottom:32px;transition:color .3s,gap .3s}
+.sp-back:hover{color:var(--ginger-ink);gap:14px}
+.sp-back .ico{width:16px;height:16px}
+.subpage-header{border-bottom:1px solid var(--glass-b);padding-bottom:56px}
+.subpage-h1{font-family:var(--ff-d);font-weight:400;font-size:clamp(56px,9vw,140px);line-height:.88;color:var(--white);letter-spacing:.02em}
+.hero-row{display:flex;justify-content:space-between;align-items:flex-end;gap:40px;margin-top:40px;flex-wrap:wrap}
+.hero-lead{font-size:clamp(16px,1.6vw,19px);line-height:1.7;color:var(--ink-soft);max-width:460px}
+.promise{display:inline-flex;align-items:center;gap:12px;margin-top:24px;font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--white);padding:10px 16px;border:1px solid var(--glass-b);background:var(--glass);border-radius:40px;backdrop-filter:blur(10px)}
+.pulse{position:relative;width:8px;height:8px;border-radius:50%;background:var(--ginger);flex-shrink:0}
+.pulse::after{content:"";position:absolute;inset:-4px;border-radius:50%;border:1px solid var(--ginger);animation:pulse 2s ease-out infinite}
+@keyframes pulse{from{transform:scale(.6);opacity:1}to{transform:scale(1.8);opacity:0}}
+.hero-ctas{display:flex;gap:12px;flex-wrap:wrap}
+
+/* ============ FORMULAIRE ============ */
+.form-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:72px;align-items:start}
+.next-steps{list-style:none;margin-top:40px;display:flex;flex-direction:column;border-top:1px solid var(--glass-b)}
+.next-steps li{display:flex;gap:20px;align-items:baseline;padding:18px 0;border-bottom:1px solid var(--glass-b);font-size:15px;line-height:1.6;color:var(--ink-soft)}
+.next-steps b{font-family:var(--ff-d);font-weight:400;font-size:24px;color:var(--ginger);min-width:28px}
+.next-title{font-size:11px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:var(--white);margin-top:48px}
+body.ar .next-title{letter-spacing:0}
+
+.form-card{position:relative;background:var(--glass);border:1px solid var(--glass-b);border-radius:16px;padding:44px 40px;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px)}
+.form-card::before{content:"";position:absolute;top:0;left:10%;right:10%;height:1px;background:linear-gradient(to right,transparent,var(--ginger),transparent)}
+.form-note{font-size:13px;color:var(--ink-soft);margin-bottom:28px}
+.form{display:flex;flex-direction:column;gap:22px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.field{display:flex;flex-direction:column;gap:10px;min-width:0}
+.lbl{font-size:10px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:var(--white)}
+.lbl .opt{color:var(--ink-soft);font-weight:400;letter-spacing:.1em;text-transform:none}
+.hint{font-size:12px;line-height:1.5;color:var(--ink-soft);margin-top:-2px}
+.input,.select,.textarea{width:100%;min-height:52px;background:var(--glass);border:1px solid var(--glass-b);border-radius:6px;padding:14px 16px;font-family:var(--ff-b);font-size:16px;font-weight:300;color:var(--white);transition:border-color .3s,box-shadow .3s,background .3s;-webkit-appearance:none;appearance:none}
+body.ar .input,body.ar .select,body.ar .textarea{font-family:var(--ff-ar)}
+.input::placeholder,.textarea::placeholder{color:var(--ph);opacity:1}
+.input:hover,.select:hover,.textarea:hover{border-color:rgba(200,80,26,.3)}
+.input:focus,.select:focus,.textarea:focus,.input:focus-visible,.select:focus-visible,.textarea:focus-visible{outline:none;border-color:var(--ginger);background:var(--ginger-dim);box-shadow:0 0 0 4px var(--ginger-glow),0 0 32px rgba(200,80,26,.12)}
+.textarea{min-height:150px;resize:vertical;line-height:1.6}
+.input[type="email"]{direction:ltr}
+[dir="rtl"] .input[type="email"]{text-align:right}
+.select-wrap{position:relative}
+.select{padding-inline-end:44px;cursor:pointer}
+.select option{background:var(--bg2);color:var(--white)}
+.select-wrap .ico{position:absolute;top:50%;inset-inline-end:16px;width:16px;height:16px;transform:translateY(-50%);pointer-events:none;color:var(--ginger)}
+
+/* Choix du service : pastilles (boutons radio accessibles) */
+.chips{border:none;display:flex;flex-direction:column;gap:12px;min-width:0}
+.chips legend{padding:0;margin-bottom:12px}
+.chip-list{display:flex;flex-wrap:wrap;gap:8px}
+.chip{position:relative}
+.chip input{position:absolute;opacity:0;width:1px;height:1px}
+.chip span{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border:1px solid var(--glass-b);background:var(--glass);border-radius:40px;font-size:14px;font-weight:400;color:var(--ink-soft);cursor:pointer;transition:color .25s,border-color .25s,background .25s,box-shadow .25s;user-select:none}
+.chip span:hover{border-color:rgba(200,80,26,.4);color:var(--white)}
+.chip input:checked + span{background:var(--ginger);border-color:var(--ginger);color:#fff;box-shadow:0 0 24px rgba(200,80,26,.3)}
+.chip input:focus-visible + span{outline:2px solid var(--ginger);outline-offset:3px}
+
+/* Consentement RGPD */
+.consent{display:flex;align-items:flex-start;gap:14px;cursor:pointer;font-size:13px;line-height:1.6;color:var(--ink-soft);min-height:44px;padding-top:4px}
+.consent input{position:absolute;opacity:0;width:1px;height:1px}
+.box{width:22px;height:22px;border:1px solid var(--white2);border-radius:5px;flex-shrink:0;display:flex;align-items:center;justify-content:center;margin-top:1px;transition:background .25s,border-color .25s,box-shadow .25s;color:#fff}
+.box .ico{width:14px;height:14px;stroke-width:2.4;opacity:0;transform:scale(.6);transition:opacity .2s,transform .2s}
+.consent input:checked + .box{background:var(--ginger);border-color:var(--ginger)}
+.consent input:checked + .box .ico{opacity:1;transform:none}
+.consent input:focus-visible + .box{box-shadow:0 0 0 4px var(--ginger-glow);border-color:var(--ginger)}
+
+/* Erreurs : ginger + icône (l'accent reste la seule couleur vive) */
+.err{display:none;align-items:center;gap:8px;font-size:13px;font-weight:400;color:var(--ginger-ink)}
+.err .ico{width:15px;height:15px}
+.field.invalid .err,.chips.invalid .err,.consent-wrap.invalid .err{display:flex}
+.field.invalid .input,.field.invalid .select,.field.invalid .textarea{border-color:var(--ginger)}
+.chips.invalid .chip span{border-color:rgba(200,80,26,.5)}
+.consent-wrap.invalid .box{border-color:var(--ginger)}
+
+/* Honeypot anti-spam : hors écran, ignoré par les lecteurs d'écran */
+.hp{position:absolute!important;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);opacity:0;pointer-events:none}
+
+/* Envoi */
+.submit-row{display:flex;flex-direction:column;gap:14px;margin-top:6px}
+.btn-submit{width:100%}
+.btn-submit .spin{display:none;width:18px;height:18px;border:2px solid rgba(255,255,255,.35);border-top-color:#fff;border-radius:50%;animation:spin .8s linear infinite}
+.btn-submit[aria-busy="true"]{pointer-events:none;background:var(--ginger2)}
+.btn-submit[aria-busy="true"] .spin{display:inline-block}
+.btn-submit[aria-busy="true"] .ico{display:none}
+@keyframes spin{to{transform:rotate(360deg)}}
+.status{font-size:14px;line-height:1.6;color:var(--ink-soft);min-height:1px}
+.status:empty{display:none}
+.status.is-error{display:flex;flex-direction:column;gap:14px;padding:18px 20px;border:1px solid rgba(200,80,26,.4);background:var(--ginger-dim);border-radius:8px;color:var(--white)}
+.status.is-info{padding:18px 20px;border:1px solid var(--glass-b);background:var(--glass);border-radius:8px;color:var(--white)}
+.status a:not(.btn-ghost){color:var(--ginger-ink);text-decoration:underline;text-underline-offset:3px}
+.status .btn-ghost{align-self:flex-start}
+.privacy{font-size:12px;color:var(--ink-soft);display:flex;gap:8px;align-items:center}
+.privacy .ico{width:14px;height:14px;color:var(--ginger)}
+
+/* Succès */
+.success{display:none;text-align:center;padding:32px 8px}
+.success:focus{outline:none}
+.form-card.sent .form,.form-card.sent .form-note{display:none}
+.form-card.sent .success{display:block;animation:spIn .6s var(--ease) both}
+@keyframes spIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.success-ico{width:72px;height:72px;margin:0 auto 24px;border-radius:50%;background:var(--ginger-dim);border:1px solid rgba(200,80,26,.4);display:flex;align-items:center;justify-content:center;color:var(--ginger);box-shadow:0 0 60px var(--ginger-glow)}
+.success-ico .ico{width:30px;height:30px;stroke-width:2}
+.success h3{font-family:var(--ff-d);font-weight:400;font-size:clamp(36px,4vw,56px);line-height:.9;letter-spacing:.02em;margin-bottom:16px}
+body.ar .success h3{font-family:var(--ff-ar);font-weight:900;line-height:1.3;letter-spacing:0}
+.success p{font-size:15px;line-height:1.75;color:var(--ink-soft);max-width:420px;margin:0 auto 28px}
+.success-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+
+/* ============ CARTES DE CONTACT ============ */
+.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.card{position:relative;display:flex;flex-direction:column;gap:18px;min-height:220px;padding:28px 24px;background:var(--glass);border:1px solid var(--glass-b);border-radius:16px;overflow:hidden;backdrop-filter:blur(12px);transition:transform .45s var(--ease),border-color .3s,box-shadow .45s,background .3s}
+.card::after{content:"";position:absolute;top:-50px;inset-inline-end:-50px;width:160px;height:160px;border-radius:50%;background:radial-gradient(circle,rgba(200,80,26,.22) 0%,transparent 70%);opacity:0;transform:scale(.6);transition:opacity .5s,transform .5s;pointer-events:none}
+.card:hover,.card:focus-visible{transform:translateY(-6px);border-color:rgba(200,80,26,.35);box-shadow:0 24px 64px rgba(0,0,0,.3),0 0 40px rgba(200,80,26,.12)}
+.card:hover::after,.card:focus-visible::after{opacity:1;transform:scale(1)}
+.card-ico{width:48px;height:48px;border:1px solid var(--glass-b);border-radius:12px;display:flex;align-items:center;justify-content:center;color:var(--ginger);transition:border-color .4s,background .4s,box-shadow .4s}
+.card:hover .card-ico,.card:focus-visible .card-ico{border-color:rgba(200,80,26,.45);background:var(--ginger-dim);box-shadow:0 0 20px rgba(200,80,26,0.3)}
+.card-k,.card-v{display:block}
+.card-k{font-size:10px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:var(--ginger-ink)}
+.card-v{font-size:16px;font-weight:400;color:var(--white);word-break:break-word;margin-top:6px}
+.card-d{font-size:13px;line-height:1.6;color:var(--ink-soft);margin-top:auto}
+.card-arr{position:absolute;top:28px;inset-inline-end:24px;color:var(--ginger);opacity:0;transform:translateX(-8px);transition:opacity .3s,transform .3s}
+[dir="rtl"] .card-arr{transform:translateX(8px) scaleX(-1)}
+.card:hover .card-arr,.card:focus-visible .card-arr{opacity:1;transform:none}
+[dir="rtl"] .card:hover .card-arr,[dir="rtl"] .card:focus-visible .card-arr{transform:scaleX(-1)}
+.card-arr .ico{width:18px;height:18px}
+
+/* ============ RÉSERVATION ============ */
+.book{position:relative;display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:48px;align-items:center;padding:64px 56px;border:1px solid var(--glass-b);border-radius:20px;background:var(--glass);overflow:hidden;backdrop-filter:blur(16px)}
+.book::before{content:"";position:absolute;inset:auto -10% -60% auto;width:620px;height:620px;border-radius:50%;background:radial-gradient(circle,rgba(200,80,26,.18) 0%,transparent 65%);pointer-events:none}
+[dir="rtl"] .book::before{inset:auto auto -60% -10%}
+.book .sec-title{margin-bottom:24px}
+.book-side{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:18px}
+.book-meta{font-size:11px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft)}
+
+/* ============ INFOS PRATIQUES ============ */
+.infos{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:var(--glass-b);border:1px solid var(--glass-b);border-radius:16px;overflow:hidden}
+.info{background:var(--bg);padding:36px 28px;display:flex;flex-direction:column;gap:14px;transition:background .3s}
+.info:hover{background:var(--bg-alt)}
+.info .ico{width:24px;height:24px;color:var(--ginger)}
+.info-k{font-size:10px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:var(--white)}
+.info-v{font-size:14px;line-height:1.7;color:var(--ink-soft)}
+.info-big{font-family:var(--ff-d);font-size:44px;line-height:1;color:var(--ginger);text-shadow:0 0 30px rgba(200,80,26,0.3)}
+
+/* ============ FAQ ============ */
+.faq-grid{display:grid;grid-template-columns:minmax(0,5fr) minmax(0,7fr);gap:72px;align-items:start}
+.faq-list{display:flex;flex-direction:column;gap:12px}
+.faq-item{background:var(--glass);border:1px solid var(--glass-b);border-radius:12px;transition:border-color .3s,box-shadow .3s,background .3s}
+.faq-item:hover{border-color:rgba(200,80,26,.25)}
+.faq-item.open{border-color:rgba(200,80,26,.35);box-shadow:0 0 40px rgba(200,80,26,.08)}
+.faq-q{width:100%;display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:64px;padding:18px 24px;background:none;border:none;cursor:pointer;text-align:start;border-radius:12px}
+.faq-q-text{font-size:16px;font-weight:400;color:var(--white);line-height:1.45;transition:color .3s}
+.faq-q:hover .faq-q-text{color:var(--ginger-ink)}
+.faq-ico{width:28px;height:28px;border-radius:50%;border:1px solid var(--glass-b);display:flex;align-items:center;justify-content:center;color:var(--ginger);transition:transform .4s var(--ease),border-color .3s;flex-shrink:0}
+.faq-ico .ico{width:14px;height:14px;stroke-width:2}
+.faq-item.open .faq-ico{transform:rotate(45deg);border-color:rgba(200,80,26,.5)}
+.faq-a{display:grid;grid-template-rows:0fr;visibility:hidden;transition:grid-template-rows .45s var(--ease),visibility 0s .45s}
+.faq-item.open .faq-a{grid-template-rows:1fr;visibility:visible;transition:grid-template-rows .45s var(--ease),visibility 0s}
+.faq-a > div{overflow:hidden}
+.faq-a p{padding:0 24px 22px;font-size:15px;line-height:1.8;color:var(--ink-soft);max-width:640px}
+
+/* ============ FOOTER (repris du site) ============ */
+footer{position:relative;z-index:10;border-top:1px solid var(--glass-b);padding:56px var(--pad-x) 32px}
+.ft-top{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:48px;margin-bottom:40px}
+.ft-logo{display:inline-flex;min-height:44px;align-items:center;margin-bottom:8px}
+.ft-logo img{height:24px;width:auto;opacity:.6}
+.ft-tagline{font-size:13px;color:var(--ink-soft);line-height:1.7;max-width:240px}
+.ft-col-title{font-size:10px;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:var(--ginger-ink);margin-bottom:10px}
+.ft-links{display:flex;flex-direction:column}
+.ft-links a{display:flex;align-items:center;min-height:44px;font-size:13px;color:var(--ink-soft);transition:color .3s}
+.ft-links a:hover{color:var(--ginger-ink)}
+.ft-bottom{display:flex;justify-content:space-between;align-items:center;padding-top:20px;border-top:1px solid var(--glass-b);flex-wrap:wrap;gap:8px 16px}
+.ft-copy{font-size:11px;letter-spacing:.1em;color:var(--ink-soft)}
+.ft-socials{display:flex;gap:20px}
+.ft-socials a{display:flex;align-items:center;min-height:44px;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--ink-soft);transition:color .3s}
+.ft-socials a:hover{color:var(--ginger-ink)}
+body.ar .ft-socials a,body.ar .ft-copy{letter-spacing:0}
+
+/* ============ RÉVÉLATION AU SCROLL ============ */
+.js .rev{opacity:0;transform:translateY(32px);transition:opacity .9s var(--ease),transform .9s var(--ease)}
+.js .rev.in{opacity:1;transform:none}
+.rev-d1{transition-delay:.08s!important}.rev-d2{transition-delay:.16s!important}.rev-d3{transition-delay:.24s!important}
+
+/* ============ RESPONSIVE (mobile first vérifié à 375 / 768 / 1280) ============ */
+@media (max-width:1100px){
+  .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .infos{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media (max-width:1024px){
+  :root{--pad-x:32px;--pad-y:96px}
+  .nav-links{gap:22px}
+  .form-grid,.faq-grid{grid-template-columns:1fr;gap:48px}
+  .book{grid-template-columns:1fr;gap:32px;padding:48px 40px}
+  .ft-top{grid-template-columns:1fr 1fr 1fr}
+  .ft-top > :first-child{grid-column:1 / -1}
+}
+@media (max-width:860px){
+  .nav-links,.btn-cta,nav .lang-sw{display:none}
+  .ham{display:flex}
+}
+@media (max-width:768px){
+  :root{--pad-x:20px;--pad-y:72px}
+  nav{padding:12px var(--pad-x)}
+  nav.scrolled{padding:8px var(--pad-x)}
+  .ct-hero{padding:112px var(--pad-x) 64px}
+  .subpage-header{padding-bottom:40px}
+  .hero-row{flex-direction:column;align-items:flex-start;gap:28px;margin-top:28px}
+  .hero-ctas{width:100%}
+  .hero-ctas > *{flex:1 1 220px}
+  .sec-title{margin-bottom:28px}
+  .form-card{padding:28px 20px;border-radius:12px}
+  .row{grid-template-columns:1fr}
+  .book{padding:36px 22px;border-radius:16px}
+  .book-side,.book-side .btn-main{width:100%}
+  .ft-top{grid-template-columns:1fr 1fr;gap:32px}
+  .ft-bottom{flex-direction:column;align-items:flex-start}
+}
+@media (max-width:560px){
+  .promise{letter-spacing:.12em}
+  .cards,.infos{grid-template-columns:1fr}
+  .card{min-height:0}
+  .ft-top{grid-template-columns:1fr}
+  .faq-q{padding:16px 18px}
+  .faq-a p{padding:0 18px 20px}
+}
+/* Écrans tactiles : zones de 44px minimum */
+@media (pointer:coarse){
+  .lang-btn{min-width:44px;min-height:44px}
+}
+
+/* ============ MOUVEMENT RÉDUIT ============ */
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.001ms!important;animation-iteration-count:1!important;transition-duration:.001ms!important;transition-delay:0s!important}
+  .js .rev{opacity:1;transform:none}
+  .card:hover,.card:focus-visible,.btn-main:hover,.btn-cta:hover{transform:none}
+  .pulse::after{display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- Sprite d'icônes SVG (réutilisées via <use>) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M3.6 20.4 4.9 16A8.6 8.6 0 1 1 8 19.1z"/><path d="M9 8.2c.2-.4.5-.5.8-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2 0 .5-.1.7l-.5.6c.6 1.2 1.6 2.2 2.8 2.8l.6-.5c.2-.2.5-.2.7-.1l1.6.7c.3.1.4.3.4.5v.5c0 .3-.1.6-.5.8-.6.4-1.4.5-2.2.2a8.6 8.6 0 0 1-4.9-4.9c-.3-.8-.2-1.6.2-2.2z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".9" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10.5V17M8 7.2v.1M12 17v-6.5M12 13.5c0-1.8 1-3 2.5-3s2.5 1 2.5 3V17"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18M8 14h3"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.2a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.8" r="2.6"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 4.5h11a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H9l-4 3v-3H4a1 1 0 0 1-1-1v-7a1 1 0 0 1 1-1z"/><path d="M16 8.5h4a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-1v3l-4-3h-4a1 1 0 0 1-1-1v-1"/></symbol>
+    <symbol id="i-theme" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 4a8 8 0 0 1 0 16z" fill="currentColor"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-alert" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7.5v5.5M12 16.4v.1"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/></symbol>
+    <symbol id="i-send" viewBox="0 0 24 24"><path d="M21 3 10 14M21 3l-7 18-4-7-7-4z"/></symbol>
+  </defs>
+</svg>
+
+<a class="skip" href="#form" data-i18n="skip">Aller au formulaire</a>
+<div class="noise" aria-hidden="true"></div>
+
+<!-- ============ NAV (identique au site, liens vers la page d'accueil) ============ -->
+<nav id="nav" aria-label="Navigation principale">
+  <a href="index.html" class="nav-logo" aria-label="LOUD Studio, accueil"><img src="assets/loud-logo.png" alt="LOUD Studio" width="52" height="28"></a>
+  <ul class="nav-links">
+    <li><a href="index.html#services" data-i18n="n_svc">Services</a></li>
+    <li><a href="index.html#work" data-i18n="n_work">Travaux</a></li>
+    <li><a href="index.html#process" data-i18n="n_proc">Processus</a></li>
+    <li><a href="index.html#about" data-i18n="n_abt">Studio</a></li>
+    <li><a href="contact.html" aria-current="page" data-i18n="n_cnt">Contact</a></li>
+  </ul>
+  <div class="nav-r">
+    <div class="lang-sw" role="group" aria-label="Langue">
+      <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+      <button type="button" class="lang-btn on" data-lang="fr" aria-pressed="true">FR</button>
+      <button type="button" class="lang-btn" data-lang="ar" aria-pressed="false">AR</button>
+    </div>
+    <button type="button" class="theme-btn" id="themeBtn" aria-pressed="false" data-i18n-aria="theme_aria" aria-label="Basculer entre mode clair et sombre"><svg class="ico" aria-hidden="true"><use href="#i-theme"/></svg></button>
+    <a href="#form" class="btn-cta" data-i18n="n_cta">Lancer un projet</a>
+    <button type="button" class="ham" id="ham" aria-expanded="false" aria-controls="mobNav" data-i18n-aria="menu_aria" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- MENU MOBILE -->
+<div class="mob-nav" id="mobNav">
+  <a href="index.html#services" data-i18n="n_svc">Services</a>
+  <a href="index.html#work" data-i18n="n_work">Travaux</a>
+  <a href="index.html#process" data-i18n="n_proc">Processus</a>
+  <a href="index.html#about" data-i18n="n_abt">Studio</a>
+  <a href="contact.html" aria-current="page" data-i18n="n_cnt">Contact</a>
+  <div class="mob-btns" role="group" aria-label="Langue">
+    <button type="button" class="lang-btn" data-lang="en" aria-pressed="false">EN</button>
+    <button type="button" class="lang-btn on" data-lang="fr" aria-pressed="true">FR</button>
+    <button type="button" class="lang-btn" data-lang="ar" aria-pressed="false">AR</button>
+  </div>
+</div>
+
+<main id="main">
+
+  <!-- ============ 1. HERO (structure de sous-page du site) ============ -->
+  <header class="ct-hero s">
+    <div class="ct-orb" aria-hidden="true"></div>
+    <div class="wrap">
+      <a class="sp-back" href="index.html"><svg class="ico flip-rtl" aria-hidden="true"><use href="#i-back"/></svg><span data-i18n="back">Retour à l'accueil</span></a>
+      <div class="subpage-header">
+        <p class="subpage-tag" data-i18n="hero_tag">Contact</p>
+        <h1 class="subpage-h1"><span data-i18n="hero_t1">Parlons de</span><span class="ac" data-i18n="hero_t2">ta marque.</span></h1>
+        <div class="hero-row">
+          <div>
+            <p class="hero-lead" data-i18n="hero_lead">Dis-nous où tu en es et où tu veux aller. On s'occupe du reste.</p>
+            <p class="promise"><span class="pulse" aria-hidden="true"></span><span data-i18n="hero_promise">Réponse sous 24h, du lundi au vendredi</span></p>
+          </div>
+          <div class="hero-ctas">
+            <a href="#form" class="btn-main"><span data-i18n="cta_write">Écrire un message</span><svg class="ico flip-rtl" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+            <a href="#booking" class="btn-ghost"><svg class="ico" aria-hidden="true"><use href="#i-calendar"/></svg><span data-i18n="cta_call">Réserver un appel</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ 2. FORMULAIRE ============ -->
+  <section class="section s" id="form" aria-labelledby="form-title">
+    <div class="wrap form-grid">
+      <div class="rev">
+        <p class="sec-tag" data-i18n="form_tag">Le formulaire</p>
+        <h2 class="sec-title" id="form-title"><span data-i18n="form_t1">Dis-nous</span><span class="ol" data-i18n="form_t2">tout.</span></h2>
+        <p class="sec-lead" data-i18n="form_lead">Deux minutes, pas plus. Plus tu es précis, plus notre réponse le sera aussi.</p>
+        <p class="next-title" data-i18n="next_title">Et ensuite ?</p>
+        <ol class="next-steps">
+          <li><b aria-hidden="true">01</b><span data-i18n="next_1">On lit ton message avec attention, pas un robot.</span></li>
+          <li><b aria-hidden="true">02</b><span data-i18n="next_2">On te répond sous 24h avec nos premières idées.</span></li>
+          <li><b aria-hidden="true">03</b><span data-i18n="next_3">Si le courant passe, on cale un appel de 20 min.</span></li>
+        </ol>
+      </div>
+
+      <div class="form-card rev rev-d1" id="formCard">
+        <p class="form-note" data-i18n="form_note">Tous les champs sont obligatoires, sauf mention contraire.</p>
+
+        <form class="form" id="contactForm" novalidate>
+          <div class="row">
+            <div class="field" data-field="name">
+              <label class="lbl" for="f-name" data-i18n="l_name">Ton nom</label>
+              <input class="input" id="f-name" name="name" type="text" autocomplete="name" required maxlength="80" aria-describedby="e-name" data-i18n-ph="ph_name" placeholder="Prénom et nom">
+              <p class="err" id="e-name"><svg class="ico" aria-hidden="true"><use href="#i-alert"/></svg><span></span></p>
+            </div>
+            <div class="field" data-field="email">
+              <label class="lbl" for="f-email" data-i18n="l_email">Ton email</label>
+              <input class="input" id="f-email" name="email" type="email" inputmode="email" autocomplete="email" required maxlength="120" aria-describedby="e-email" placeholder="toi@tamarque.com" data-i18n-ph="ph_email">
+              <p class="err" id="e-email"><svg class="ico" aria-hidden="true"><use href="#i-alert"/></svg><span></span></p>
+            </div>
+          </div>
+
+          <div class="field" data-field="brand">
+            <label class="lbl" for="f-brand" data-i18n="l_brand">Ta marque ou entreprise</label>
+            <input class="input" id="f-brand" name="brand" type="text" autocomplete="organization" required maxlength="100" aria-describedby="h-brand e-brand" data-i18n-ph="ph_brand" placeholder="Nom de ta marque">
+            <p class="hint" id="h-brand" data-i18n="h_brand">En personal branding ? Ton nom suffit.</p>
+            <p class="err" id="e-brand"><svg class="ico" aria-hidden="true"><use href="#i-alert"/></svg><span></span></p>
+          </div>
+
+          <fieldset class="chips" data-field="service" aria-describedby="e-service">
+            <legend class="lbl" data-i18n="l_service">Ce dont tu as besoin</legend>
+            <div class="chip-list">
+              <label class="chip"><input type="radio" name="service" value="Social media" required><span data-i18n="sv_social">Social media</span></label>
+              <label class="chip"><input type="radio" name="service" value="Branding"><span data-i18n="sv_brand">Branding</span></label>
+              <label class="chip"><input type="radio" name="service" value="Ads"><span data-i18n="sv_ads">Ads</span></label>
+              <label class="chip"><input type="radio" name="service" value="Site web"><span data-i18n="sv_web">Site web</span></label>
+              <label class="chip"><input type="radio" name="service" value="Autre"><span data-i18n="sv_other">Autre</span></label>
+            </div>
+            <p class="err" id="e-service"><svg class="ico" aria-hidden="true"><use href="#i-alert"/></svg><span></span></p>
+          </fieldset>
+
+          <div class="field" data-field="budget">
+            <label class="lbl" for="f-budget"><span data-i18n="l_budget">Budget indicatif</span> <span class="opt" data-i18n="optional">(optionnel)</span></label>
+            <div class="select-wrap">
+              <select class="select" id="f-budget" name="budget">
+                <option value="" data-i18n="b_none">Choisis une fourchette</option>
+                <option value="< 300 EUR / mois" data-i18n="b_1">Moins de 300 € par mois</option>
+                <option value="300 a 600 EUR / mois" data-i18n="b_2">300 à 600 € par mois</option>
+                <option value="600 a 1500 EUR / mois" data-i18n="b_3">600 à 1 500 € par mois</option>
+                <option value="> 1500 EUR / mois" data-i18n="b_4">Plus de 1 500 € par mois</option>
+                <option value="Projet ponctuel" data-i18n="b_5">Projet ponctuel, à chiffrer ensemble</option>
+                <option value="Ne sait pas encore" data-i18n="b_6">Je ne sais pas encore</option>
+              </select>
+              <svg class="ico" aria-hidden="true"><use href="#i-chevron"/></svg>
+            </div>
+          </div>
+
+          <div class="field" data-field="message">
+            <label class="lbl" for="f-message" data-i18n="l_message">Ton message</label>
+            <textarea class="textarea" id="f-message" name="message" required minlength="10" maxlength="3000" rows="5" aria-describedby="e-message" data-i18n-ph="ph_message" placeholder="Ton projet, tes objectifs, ton calendrier…"></textarea>
+            <p class="err" id="e-message"><svg class="ico" aria-hidden="true"><use href="#i-alert"/></svg><span></span></p>
+          </div>
+
+          <!-- Honeypot : les humains ne le voient pas, les robots le remplissent -->
+          <div class="hp" aria-hidden="true">
+            <label for="f-website">Website</label>
+            <input type="text" id="f-website" name="website" tabindex="-1" autocomplete="off">
+            <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div class="consent-wrap" data-field="consent">
+            <label class="consent" for="f-consent">
+              <input type="checkbox" id="f-consent" name="consent" required aria-describedby="e-consent">
+              <span class="box" aria-hidden="true"><svg class="ico"><use href="#i-check"/></svg></span>
+              <span data-i18n="l_consent">J'accepte que LOUD Studio utilise ces informations uniquement pour répondre à ma demande. Elles ne sont ni revendues, ni partagées.</span>
+            </label>
+            <p class="err" id="e-consent"><svg class="ico" aria-hidden="true"><use href="#i-alert"/></svg><span></span></p>
+          </div>
+
+          <div class="submit-row">
+            <button type="submit" class="btn-main btn-submit" id="submitBtn" aria-busy="false">
+              <span class="spin" aria-hidden="true"></span>
+              <span id="submitLabel" data-i18n="submit">Envoyer mon message</span>
+              <svg class="ico flip-rtl" aria-hidden="true"><use href="#i-send"/></svg>
+            </button>
+            <p class="privacy"><svg class="ico" aria-hidden="true"><use href="#i-lock"/></svg><span data-i18n="privacy">Tes infos restent entre nous.</span></p>
+            <!-- Messages d'état annoncés aux lecteurs d'écran -->
+            <div class="status" id="formStatus" role="status" aria-live="polite"></div>
+          </div>
+        </form>
+
+        <!-- État succès -->
+        <div class="success" id="formSuccess" tabindex="-1" aria-labelledby="success-title">
+          <div class="success-ico" aria-hidden="true"><svg class="ico"><use href="#i-check"/></svg></div>
+          <h3 id="success-title" data-i18n="ok_title">Message bien reçu !</h3>
+          <p data-i18n="ok_text">Merci pour ta confiance. On revient vers toi sous 24h. En attendant, viens voir ce qu'on fait sur Instagram.</p>
+          <div class="success-actions">
+            <a class="btn-ghost" data-link="instagram" href="https://instagram.com/loudstudio.co" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-instagram"/></svg><span>@loudstudio.co</span></a>
+            <button type="button" class="btn-ghost" id="againBtn" data-i18n="ok_again">Envoyer un autre message</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 3. CONTACT DIRECT ============ -->
+  <section class="section s" id="direct" aria-labelledby="direct-title">
+    <div class="wrap">
+      <p class="sec-tag rev" data-i18n="dir_tag">En direct</p>
+      <h2 class="sec-title rev" id="direct-title"><span data-i18n="dir_t1">Plutôt</span><span class="ol" data-i18n="dir_t2">en direct ?</span></h2>
+      <div class="cards">
+        <a class="card rev" data-link="email" href="mailto:loud.digitalstudio@gmail.com">
+          <span class="card-ico" aria-hidden="true"><svg class="ico"><use href="#i-mail"/></svg></span>
+          <span class="card-arr" aria-hidden="true"><svg class="ico"><use href="#i-arrow"/></svg></span>
+          <span><span class="card-k">Email</span><span class="card-v" data-text="email" dir="ltr">loud.digitalstudio@gmail.com</span></span>
+          <span class="card-d" data-i18n="c_email_d">Pour les briefs détaillés et les pièces jointes.</span>
+        </a>
+        <a class="card rev rev-d1" data-link="whatsapp" href="https://wa.me/33751078260" target="_blank" rel="noopener">
+          <span class="card-ico" aria-hidden="true"><svg class="ico"><use href="#i-whatsapp"/></svg></span>
+          <span class="card-arr" aria-hidden="true"><svg class="ico"><use href="#i-arrow"/></svg></span>
+          <span><span class="card-k">WhatsApp</span><span class="card-v" data-text="whatsapp" dir="ltr">+33 7 51 07 82 60</span></span>
+          <span class="card-d" data-i18n="c_wa_d">Pour une question rapide, on répond vite.</span>
+        </a>
+        <a class="card rev rev-d2" data-link="instagram" href="https://instagram.com/loudstudio.co" target="_blank" rel="noopener">
+          <span class="card-ico" aria-hidden="true"><svg class="ico"><use href="#i-instagram"/></svg></span>
+          <span class="card-arr" aria-hidden="true"><svg class="ico"><use href="#i-arrow"/></svg></span>
+          <span><span class="card-k">Instagram</span><span class="card-v" data-text="instagram" dir="ltr">@loudstudio.co</span></span>
+          <span class="card-d" data-i18n="c_ig_d">Pour voir nos derniers projets en coulisses.</span>
+        </a>
+        <a class="card rev rev-d3" data-link="linkedin" href="https://www.linkedin.com/company/loudstudio" target="_blank" rel="noopener">
+          <span class="card-ico" aria-hidden="true"><svg class="ico"><use href="#i-linkedin"/></svg></span>
+          <span class="card-arr" aria-hidden="true"><svg class="ico"><use href="#i-arrow"/></svg></span>
+          <span><span class="card-k">LinkedIn</span><span class="card-v" data-text="linkedin" dir="ltr">LOUD Studio</span></span>
+          <span class="card-d" data-i18n="c_li_d">Pour les échanges pro et les partenariats.</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 4. RÉSERVATION ============ -->
+  <section class="section s" id="booking" aria-labelledby="book-title">
+    <div class="wrap">
+      <div class="book rev">
+        <div>
+          <p class="sec-tag" data-i18n="book_tag">Appel découverte</p>
+          <h2 class="sec-title" id="book-title"><span data-i18n="book_t1">On en parle</span><span class="ac" data-i18n="book_t2">de vive voix ?</span></h2>
+          <p class="sec-lead" data-i18n="book_lead">20 minutes en visio pour faire connaissance, comprendre ton projet et voir si on est faits pour avancer ensemble. Sans engagement.</p>
+        </div>
+        <div class="book-side">
+          <a class="btn-main" id="bookBtn" data-link="booking" href="https://cal.com/loudstudio/20min" target="_blank" rel="noopener"><svg class="ico" aria-hidden="true"><use href="#i-calendar"/></svg><span data-i18n="book_btn">Réserver un appel de 20 min</span></a>
+          <p class="book-meta" data-i18n="book_meta">Gratuit · Visio · Sans engagement</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 5. INFOS PRATIQUES ============ -->
+  <section class="section s" id="infos" aria-labelledby="infos-title">
+    <div class="wrap">
+      <p class="sec-tag rev" data-i18n="inf_tag">Infos pratiques</p>
+      <h2 class="sec-title rev" id="infos-title"><span data-i18n="inf_t1">Partout,</span><span class="ol" data-i18n="inf_t2">à distance.</span></h2>
+      <div class="infos rev">
+        <div class="info">
+          <span class="info-big" aria-hidden="true">100%</span>
+          <h3 class="info-k" data-i18n="inf_remote_k">Agence 100% remote</h3>
+          <p class="info-v" data-i18n="inf_remote_v">Pas de bureau, pas de frontières. Tout se passe en visio, sur WhatsApp et par email.</p>
+        </div>
+        <div class="info">
+          <svg class="ico" aria-hidden="true"><use href="#i-clock"/></svg>
+          <h3 class="info-k" data-i18n="inf_hours_k">Horaires de réponse</h3>
+          <p class="info-v" data-i18n="inf_hours_v">Du lundi au vendredi, de 9h à 19h (heure de Paris). Réponse sous 24h ouvrées.</p>
+        </div>
+        <div class="info">
+          <svg class="ico" aria-hidden="true"><use href="#i-globe"/></svg>
+          <h3 class="info-k" data-i18n="inf_zones_k">Zones couvertes</h3>
+          <p class="info-v" data-i18n="inf_zones_v">Europe, MENA, Amérique du Nord et Afrique francophone.</p>
+        </div>
+        <div class="info">
+          <svg class="ico" aria-hidden="true"><use href="#i-chat"/></svg>
+          <h3 class="info-k" data-i18n="inf_lang_k">Langues parlées</h3>
+          <p class="info-v" data-i18n="inf_lang_v">Français, anglais et arabe. On crée aussi du contenu dans ces trois langues.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ 6. MINI FAQ ============ -->
+  <section class="section s" id="faq" aria-labelledby="faq-title">
+    <div class="wrap faq-grid">
+      <div class="rev">
+        <p class="sec-tag" data-i18n="faq_tag">Questions</p>
+        <h2 class="sec-title" id="faq-title"><span data-i18n="faq_t1">Avant de</span><span class="ol" data-i18n="faq_t2">nous écrire.</span></h2>
+      </div>
+      <div class="faq-list rev rev-d1">
+        <div class="faq-item">
+          <h3><button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a1" id="faq-q1"><span class="faq-q-text" data-i18n="fq1q">Sous combien de temps vous répondez ?</span><span class="faq-ico" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span></button></h3>
+          <div class="faq-a" id="faq-a1" role="region" aria-labelledby="faq-q1"><div><p data-i18n="fq1a">Sous 24h ouvrées, et souvent bien avant. Si tu nous écris le week-end, on te répond le lundi matin.</p></div></div>
+        </div>
+        <div class="faq-item">
+          <h3><button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a2" id="faq-q2"><span class="faq-q-text" data-i18n="fq2q">Comment se passe le premier échange ?</span><span class="faq-ico" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span></button></h3>
+          <div class="faq-a" id="faq-a2" role="region" aria-labelledby="faq-q2"><div><p data-i18n="fq2a">Un appel de 20 minutes en visio. Tu nous parles de ta marque, de tes objectifs et de ton budget. On te dit franchement si on peut t'aider, et comment. Ensuite, tu reçois une proposition claire sous 48h.</p></div></div>
+        </div>
+        <div class="faq-item">
+          <h3><button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a3" id="faq-q3"><span class="faq-q-text" data-i18n="fq3q">Avec quels types de clients vous travaillez ?</span><span class="faq-ico" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span></button></h3>
+          <div class="faq-a" id="faq-a3" role="region" aria-labelledby="faq-q3"><div><p data-i18n="fq3a">Surtout des personal brands (fondateurs, experts, créateurs), des restaurants, des marques bien-être et beauté, et des entreprises tech. Jeune marque ou marque installée, ce qui compte c'est ton envie d'avancer.</p></div></div>
+        </div>
+        <div class="faq-item">
+          <h3><button type="button" class="faq-q" aria-expanded="false" aria-controls="faq-a4" id="faq-q4"><span class="faq-q-text" data-i18n="fq4q">On peut échanger dans quelle langue ?</span><span class="faq-ico" aria-hidden="true"><svg class="ico"><use href="#i-plus"/></svg></span></button></h3>
+          <div class="faq-a" id="faq-a4" role="region" aria-labelledby="faq-q4"><div><p data-i18n="fq4a">En français, en anglais ou en arabe, comme tu préfères. Et on crée du contenu dans ces trois langues pour parler à tes audiences là où elles sont.</p></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ 7. FOOTER (repris du site) ============ -->
+<footer class="s">
+  <div class="ft-top">
+    <div>
+      <a href="index.html" class="ft-logo" aria-label="LOUD Studio, accueil"><img src="assets/loud-logo.png" alt="LOUD Studio" width="44" height="24" loading="lazy"></a>
+      <p class="ft-tagline" data-i18n="ft_tag">Stratégie, contenu et croissance pour les marques qui refusent d'être invisibles.</p>
+    </div>
+    <div>
+      <p class="ft-col-title" data-i18n="ft_c1">Services</p>
+      <div class="ft-links">
+        <a href="index.html#services" data-i18n="sv_social">Social media</a>
+        <a href="index.html#services" data-i18n="sv_brand">Branding</a>
+        <a href="index.html#services" data-i18n="sv_ads">Ads</a>
+        <a href="index.html#services" data-i18n="sv_web">Site web</a>
+      </div>
+    </div>
+    <div>
+      <p class="ft-col-title" data-i18n="ft_c2">Studio</p>
+      <div class="ft-links">
+        <a href="index.html#work" data-i18n="n_work">Travaux</a>
+        <a href="index.html#process" data-i18n="n_proc">Processus</a>
+        <a href="index.html#about" data-i18n="n_abt">Studio</a>
+        <a href="#faq">FAQ</a>
+      </div>
+    </div>
+    <div>
+      <p class="ft-col-title" data-i18n="ft_c3">Contact</p>
+      <div class="ft-links">
+        <a data-link="whatsapp" href="https://wa.me/33751078260" target="_blank" rel="noopener"><span data-text="whatsapp" dir="ltr">+33 7 51 07 82 60</span></a>
+        <a data-link="instagram" href="https://instagram.com/loudstudio.co" target="_blank" rel="noopener"><span dir="ltr">@loudstudio.co</span></a>
+        <a data-link="email" href="mailto:loud.digitalstudio@gmail.com" data-i18n="ft_mail">Nous écrire</a>
+      </div>
+    </div>
+  </div>
+  <div class="ft-bottom">
+    <span class="ft-copy" data-i18n="ft_copy">© 2026 LOUD Studio. Tous droits réservés.</span>
+    <div class="ft-socials">
+      <a data-link="instagram" href="https://instagram.com/loudstudio.co" target="_blank" rel="noopener">Instagram</a>
+      <a data-link="linkedin" href="https://www.linkedin.com/company/loudstudio" target="_blank" rel="noopener">LinkedIn</a>
+      <a data-link="whatsapp" href="https://wa.me/33751078260" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+/* =========================================================
+   CONFIGURATION · à compléter avant la mise en ligne
+   Toutes les coordonnées de la page sont lues ici.
+   ========================================================= */
+var CONFIG = {
+  WEB3FORMS_KEY: "YOUR_WEB3FORMS_ACCESS_KEY",           // clé d'accès gratuite sur https://web3forms.com
+  EMAIL: "loud.digitalstudio@gmail.com",                // email de réception (sert aussi au fallback mailto)
+  WHATSAPP: "33751078260",                              // numéro au format international, sans + ni espaces
+  WHATSAPP_DISPLAY: "+33 7 51 07 82 60",
+  INSTAGRAM: "https://instagram.com/loudstudio.co",
+  LINKEDIN: "https://www.linkedin.com/company/loudstudio", // à vérifier
+  BOOKING_URL: "https://cal.com/loudstudio/20min"       // lien Calendly ou Cal.com
+};
+
+/* =========================================================
+   TRADUCTIONS (même système que le site : data-i18n + setLang)
+   Ajouts propres à cette page : data-i18n-ph (placeholder)
+   et data-i18n-aria (aria-label).
+   ========================================================= */
+var T = {
+  fr: {
+    meta_title: "Contact | LOUD Studio, agence social media 100% remote",
+    skip: "Aller au formulaire", theme_aria: "Basculer entre mode clair et sombre", menu_aria: "Ouvrir le menu",
+    n_svc: "Services", n_work: "Travaux", n_proc: "Processus", n_abt: "Studio", n_cnt: "Contact", n_cta: "Lancer un projet",
+    back: "Retour à l'accueil",
+    hero_tag: "Contact", hero_t1: "Parlons de", hero_t2: "ta marque.",
+    hero_lead: "Dis-nous où tu en es et où tu veux aller. On s'occupe du reste.",
+    hero_promise: "Réponse sous 24h, du lundi au vendredi",
+    cta_write: "Écrire un message", cta_call: "Réserver un appel",
+    form_tag: "Le formulaire", form_t1: "Dis-nous", form_t2: "tout.",
+    form_lead: "Deux minutes, pas plus. Plus tu es précis, plus notre réponse le sera aussi.",
+    next_title: "Et ensuite ?",
+    next_1: "On lit ton message avec attention, pas un robot.",
+    next_2: "On te répond sous 24h avec nos premières idées.",
+    next_3: "Si le courant passe, on cale un appel de 20 min.",
+    form_note: "Tous les champs sont obligatoires, sauf mention contraire.",
+    l_name: "Ton nom", ph_name: "Prénom et nom",
+    l_email: "Ton email", ph_email: "toi@tamarque.com",
+    l_brand: "Ta marque ou entreprise", ph_brand: "Nom de ta marque", h_brand: "En personal branding ? Ton nom suffit.",
+    l_service: "Ce dont tu as besoin",
+    sv_social: "Social media", sv_brand: "Branding", sv_ads: "Ads", sv_web: "Site web", sv_other: "Autre",
+    l_budget: "Budget indicatif", optional: "(optionnel)",
+    b_none: "Choisis une fourchette", b_1: "Moins de 300 € par mois", b_2: "300 à 600 € par mois", b_3: "600 à 1 500 € par mois",
+    b_4: "Plus de 1 500 € par mois", b_5: "Projet ponctuel, à chiffrer ensemble", b_6: "Je ne sais pas encore",
+    l_message: "Ton message", ph_message: "Ton projet, tes objectifs, ton calendrier…",
+    l_consent: "J'accepte que LOUD Studio utilise ces informations uniquement pour répondre à ma demande. Elles ne sont ni revendues, ni partagées.",
+    submit: "Envoyer mon message", sending: "Envoi en cours…", privacy: "Tes infos restent entre nous.",
+    e_name: "Dis-nous comment tu t'appelles.",
+    e_email: "Cet email ne semble pas valide. Exemple : toi@tamarque.com",
+    e_brand: "Indique ta marque, ou simplement ton nom.",
+    e_service: "Choisis ce qui t'intéresse le plus.",
+    e_message: "Quelques mots sur ton projet, au moins 10 caractères.",
+    e_consent: "On a besoin de ton accord pour te répondre.",
+    e_summary: "Il reste {n} champ(s) à compléter.",
+    ok_title: "Message bien reçu !",
+    ok_text: "Merci pour ta confiance. On revient vers toi sous 24h. En attendant, viens voir ce qu'on fait sur Instagram.",
+    ok_again: "Envoyer un autre message",
+    err_send: "Oups, l'envoi n'a pas marché. Ce n'est pas toi, c'est nous. Réessaie dans un instant ou envoie ton message par email :",
+    err_btn: "Envoyer par email",
+    mailto_info: "Ton application mail s'ouvre avec ton message déjà rédigé. Il ne te reste qu'à cliquer sur envoyer. Rien ne s'ouvre ? Écris-nous à",
+    mail_subject: "Nouveau projet",
+    dir_tag: "En direct", dir_t1: "Plutôt", dir_t2: "en direct ?",
+    c_email_d: "Pour les briefs détaillés et les pièces jointes.",
+    c_wa_d: "Pour une question rapide, on répond vite.",
+    c_ig_d: "Pour voir nos derniers projets en coulisses.",
+    c_li_d: "Pour les échanges pro et les partenariats.",
+    book_tag: "Appel découverte", book_t1: "On en parle", book_t2: "de vive voix ?",
+    book_lead: "20 minutes en visio pour faire connaissance, comprendre ton projet et voir si on est faits pour avancer ensemble. Sans engagement.",
+    book_btn: "Réserver un appel de 20 min", book_meta: "Gratuit · Visio · Sans engagement",
+    book_wa: "Bonjour LOUD Studio, je souhaite réserver un appel de 20 min.",
+    inf_tag: "Infos pratiques", inf_t1: "Partout,", inf_t2: "à distance.",
+    inf_remote_k: "Agence 100% remote", inf_remote_v: "Pas de bureau, pas de frontières. Tout se passe en visio, sur WhatsApp et par email.",
+    inf_hours_k: "Horaires de réponse", inf_hours_v: "Du lundi au vendredi, de 9h à 19h (heure de Paris). Réponse sous 24h ouvrées.",
+    inf_zones_k: "Zones couvertes", inf_zones_v: "Europe, MENA, Amérique du Nord et Afrique francophone.",
+    inf_lang_k: "Langues parlées", inf_lang_v: "Français, anglais et arabe. On crée aussi du contenu dans ces trois langues.",
+    faq_tag: "Questions", faq_t1: "Avant de", faq_t2: "nous écrire.",
+    fq1q: "Sous combien de temps vous répondez ?",
+    fq1a: "Sous 24h ouvrées, et souvent bien avant. Si tu nous écris le week-end, on te répond le lundi matin.",
+    fq2q: "Comment se passe le premier échange ?",
+    fq2a: "Un appel de 20 minutes en visio. Tu nous parles de ta marque, de tes objectifs et de ton budget. On te dit franchement si on peut t'aider, et comment. Ensuite, tu reçois une proposition claire sous 48h.",
+    fq3q: "Avec quels types de clients vous travaillez ?",
+    fq3a: "Surtout des personal brands (fondateurs, experts, créateurs), des restaurants, des marques bien-être et beauté, et des entreprises tech. Jeune marque ou marque installée, ce qui compte c'est ton envie d'avancer.",
+    fq4q: "On peut échanger dans quelle langue ?",
+    fq4a: "En français, en anglais ou en arabe, comme tu préfères. Et on crée du contenu dans ces trois langues pour parler à tes audiences là où elles sont.",
+    ft_tag: "Stratégie, contenu et croissance pour les marques qui refusent d'être invisibles.",
+    ft_c1: "Services", ft_c2: "Studio", ft_c3: "Contact", ft_mail: "Nous écrire", ft_copy: "© 2026 LOUD Studio. Tous droits réservés."
+  },
+
+  en: {
+    meta_title: "Contact | LOUD Studio, 100% remote social media agency",
+    skip: "Skip to the form", theme_aria: "Toggle light and dark mode", menu_aria: "Open menu",
+    n_svc: "Services", n_work: "Work", n_proc: "Process", n_abt: "Studio", n_cnt: "Contact", n_cta: "Start a Project",
+    back: "Back to home",
+    hero_tag: "Contact", hero_t1: "Let's talk about", hero_t2: "your brand.",
+    hero_lead: "Tell us where you are and where you want to go. We'll take it from there.",
+    hero_promise: "Reply within 24h, Monday to Friday",
+    cta_write: "Write a message", cta_call: "Book a call",
+    form_tag: "The form", form_t1: "Tell us", form_t2: "everything.",
+    form_lead: "Two minutes, tops. The more specific you are, the more useful our reply will be.",
+    next_title: "What happens next?",
+    next_1: "A real person reads your message carefully. No bots.",
+    next_2: "We reply within 24h with our first ideas.",
+    next_3: "If it clicks, we set up a 20 min call.",
+    form_note: "All fields are required unless marked otherwise.",
+    l_name: "Your name", ph_name: "First and last name",
+    l_email: "Your email", ph_email: "you@yourbrand.com",
+    l_brand: "Your brand or company", ph_brand: "Your brand name", h_brand: "Personal brand? Your name is enough.",
+    l_service: "What you need",
+    sv_social: "Social media", sv_brand: "Branding", sv_ads: "Ads", sv_web: "Website", sv_other: "Other",
+    l_budget: "Rough budget", optional: "(optional)",
+    b_none: "Pick a range", b_1: "Under €300 per month", b_2: "€300 to €600 per month", b_3: "€600 to €1,500 per month",
+    b_4: "Over €1,500 per month", b_5: "One-off project, let's scope it", b_6: "Not sure yet",
+    l_message: "Your message", ph_message: "Your project, your goals, your timeline…",
+    l_consent: "I agree that LOUD Studio uses this information only to reply to my request. It is never sold or shared.",
+    submit: "Send my message", sending: "Sending…", privacy: "Your details stay between us.",
+    e_name: "Tell us what to call you.",
+    e_email: "This email doesn't look right. Example: you@yourbrand.com",
+    e_brand: "Add your brand, or simply your name.",
+    e_service: "Pick what interests you most.",
+    e_message: "A few words about your project, at least 10 characters.",
+    e_consent: "We need your consent to reply to you.",
+    e_summary: "{n} field(s) still need your attention.",
+    ok_title: "Message received!",
+    ok_text: "Thanks for reaching out. We'll get back to you within 24h. In the meantime, come see what we do on Instagram.",
+    ok_again: "Send another message",
+    err_send: "Oops, that didn't go through. It's not you, it's us. Try again in a moment or send your message by email:",
+    err_btn: "Send by email",
+    mailto_info: "Your email app is opening with your message ready to go. Just hit send. Nothing opened? Write to us at",
+    mail_subject: "New project",
+    dir_tag: "Direct", dir_t1: "Rather go", dir_t2: "direct?",
+    c_email_d: "For detailed briefs and attachments.",
+    c_wa_d: "For a quick question, we reply fast.",
+    c_ig_d: "To see our latest projects behind the scenes.",
+    c_li_d: "For business talks and partnerships.",
+    book_tag: "Discovery call", book_t1: "Rather talk", book_t2: "face to face?",
+    book_lead: "20 minutes on video to get to know each other, understand your project and see if we're a good fit. No strings attached.",
+    book_btn: "Book a 20 min call", book_meta: "Free · Video call · No commitment",
+    book_wa: "Hi LOUD Studio, I'd like to book a 20 min call.",
+    inf_tag: "Good to know", inf_t1: "Everywhere,", inf_t2: "remotely.",
+    inf_remote_k: "100% remote agency", inf_remote_v: "No office, no borders. Everything happens over video, WhatsApp and email.",
+    inf_hours_k: "Reply hours", inf_hours_v: "Monday to Friday, 9am to 7pm (Paris time). Reply within 24 business hours.",
+    inf_zones_k: "Where we work", inf_zones_v: "Europe, MENA, North America and francophone Africa.",
+    inf_lang_k: "Languages", inf_lang_v: "French, English and Arabic. We also create content in all three.",
+    faq_tag: "Questions", faq_t1: "Before you", faq_t2: "write to us.",
+    fq1q: "How fast do you reply?",
+    fq1a: "Within 24 business hours, often much sooner. If you write over the weekend, we'll get back to you Monday morning.",
+    fq2q: "How does the first conversation go?",
+    fq2a: "A 20 minute video call. You tell us about your brand, your goals and your budget. We tell you honestly whether we can help, and how. Then you get a clear proposal within 48h.",
+    fq3q: "What kind of clients do you work with?",
+    fq3a: "Mostly personal brands (founders, experts, creators), restaurants, wellness and beauty brands, and tech companies. New or established, what matters is your drive to move forward.",
+    fq4q: "Which language can we talk in?",
+    fq4a: "French, English or Arabic, whatever you prefer. And we create content in all three to reach your audiences where they are.",
+    ft_tag: "Strategy, content and growth for brands that refuse to be invisible.",
+    ft_c1: "Services", ft_c2: "Studio", ft_c3: "Contact", ft_mail: "Email us", ft_copy: "© 2026 LOUD Studio. All rights reserved."
+  },
+
+  ar: {
+    meta_title: "تواصل معنا | LOUD Studio، وكالة سوشيال ميديا تعمل عن بُعد",
+    skip: "انتقل إلى الاستمارة", theme_aria: "التبديل بين الوضع الفاتح والداكن", menu_aria: "فتح القائمة",
+    n_svc: "الخدمات", n_work: "أعمالنا", n_proc: "العملية", n_abt: "الاستوديو", n_cnt: "تواصل", n_cta: "لنعمل معاً",
+    back: "العودة إلى الرئيسية",
+    hero_tag: "تواصل", hero_t1: "لنتحدث عن", hero_t2: "علامتك.",
+    hero_lead: "أخبرنا أين أنت اليوم وإلى أين تريد الوصول، والباقي علينا.",
+    hero_promise: "نرد خلال 24 ساعة، من الاثنين إلى الجمعة",
+    cta_write: "اكتب لنا", cta_call: "احجز مكالمة",
+    form_tag: "الاستمارة", form_t1: "أخبرنا", form_t2: "بكل شيء.",
+    form_lead: "دقيقتان فقط. كلما كانت التفاصيل أوضح، كان ردنا أدق.",
+    next_title: "ماذا بعد؟",
+    next_1: "يقرأ رسالتك شخص حقيقي باهتمام، لا روبوت.",
+    next_2: "نرد عليك خلال 24 ساعة مع أولى أفكارنا.",
+    next_3: "إذا شعرنا بالتوافق، نحدد مكالمة من 20 دقيقة.",
+    form_note: "جميع الحقول مطلوبة ما لم يُذكر خلاف ذلك.",
+    l_name: "اسمك", ph_name: "الاسم الكامل",
+    l_email: "بريدك الإلكتروني", ph_email: "you@yourbrand.com",
+    l_brand: "علامتك أو شركتك", ph_brand: "اسم علامتك", h_brand: "علامة شخصية؟ يكفي اسمك.",
+    l_service: "ما الذي تحتاجه",
+    sv_social: "سوشيال ميديا", sv_brand: "هوية العلامة", sv_ads: "إعلانات", sv_web: "موقع إلكتروني", sv_other: "أخرى",
+    l_budget: "الميزانية التقريبية", optional: "(اختياري)",
+    b_none: "اختر نطاقاً", b_1: "أقل من 300 € شهرياً", b_2: "من 300 إلى 600 € شهرياً", b_3: "من 600 إلى 1500 € شهرياً",
+    b_4: "أكثر من 1500 € شهرياً", b_5: "مشروع لمرة واحدة، نحدد تكلفته معاً", b_6: "لا أعرف بعد",
+    l_message: "رسالتك", ph_message: "مشروعك، أهدافك، والمدة التي تفكر بها…",
+    l_consent: "أوافق على أن تستخدم LOUD Studio هذه المعلومات فقط للرد على طلبي. لن تُباع ولن تُشارك مع أي طرف.",
+    submit: "أرسل رسالتي", sending: "جارٍ الإرسال…", privacy: "معلوماتك تبقى بيننا.",
+    e_name: "أخبرنا باسمك.",
+    e_email: "يبدو أن هذا البريد غير صحيح. مثال: you@yourbrand.com",
+    e_brand: "اكتب اسم علامتك، أو اسمك ببساطة.",
+    e_service: "اختر ما يهمك أكثر.",
+    e_message: "بضع كلمات عن مشروعك، 10 أحرف على الأقل.",
+    e_consent: "نحتاج إلى موافقتك لنتمكن من الرد عليك.",
+    e_summary: "بقي {n} حقل يحتاج إلى تصحيح.",
+    ok_title: "وصلتنا رسالتك!",
+    ok_text: "شكراً لثقتك. سنعود إليك خلال 24 ساعة. في الأثناء، تعرّف على أعمالنا على إنستغرام.",
+    ok_again: "إرسال رسالة أخرى",
+    err_send: "عذراً، لم يتم الإرسال. المشكلة من جهتنا وليست منك. حاول مجدداً بعد لحظات أو أرسل رسالتك عبر البريد:",
+    err_btn: "الإرسال عبر البريد",
+    mailto_info: "يتم فتح تطبيق البريد لديك مع رسالتك جاهزة. ما عليك سوى الضغط على إرسال. لم يُفتح شيء؟ راسلنا على",
+    mail_subject: "مشروع جديد",
+    dir_tag: "مباشرة", dir_t1: "تفضّل", dir_t2: "التواصل المباشر؟",
+    c_email_d: "للتفاصيل الكاملة والملفات المرفقة.",
+    c_wa_d: "لسؤال سريع، نرد بسرعة.",
+    c_ig_d: "لاكتشاف أحدث مشاريعنا من الكواليس.",
+    c_li_d: "للتواصل المهني والشراكات.",
+    book_tag: "مكالمة تعارف", book_t1: "نتحدث", book_t2: "وجهاً لوجه؟",
+    book_lead: "20 دقيقة عبر الفيديو لنتعرف عليك ونفهم مشروعك ونرى إن كنا مناسبين للعمل معاً. بدون أي التزام.",
+    book_btn: "احجز مكالمة من 20 دقيقة", book_meta: "مجانية · فيديو · بدون التزام",
+    book_wa: "مرحباً LOUD Studio، أود حجز مكالمة من 20 دقيقة.",
+    inf_tag: "معلومات عملية", inf_t1: "في كل مكان،", inf_t2: "عن بُعد.",
+    inf_remote_k: "وكالة تعمل 100% عن بُعد", inf_remote_v: "بلا مكاتب وبلا حدود. كل شيء يتم عبر الفيديو وواتساب والبريد الإلكتروني.",
+    inf_hours_k: "أوقات الرد", inf_hours_v: "من الاثنين إلى الجمعة، من 9 صباحاً حتى 7 مساءً بتوقيت باريس. نرد خلال 24 ساعة عمل.",
+    inf_zones_k: "المناطق التي نغطيها", inf_zones_v: "أوروبا، الشرق الأوسط وشمال أفريقيا، أمريكا الشمالية وأفريقيا الناطقة بالفرنسية.",
+    inf_lang_k: "اللغات", inf_lang_v: "الفرنسية والإنجليزية والعربية. ونصنع المحتوى أيضاً بهذه اللغات الثلاث.",
+    faq_tag: "أسئلة", faq_t1: "قبل أن", faq_t2: "تكتب لنا.",
+    fq1q: "متى ستردون عليّ؟",
+    fq1a: "خلال 24 ساعة عمل، وغالباً قبل ذلك بكثير. إذا راسلتنا في عطلة نهاية الأسبوع، نرد عليك صباح الاثنين.",
+    fq2q: "كيف يجري أول تواصل بيننا؟",
+    fq2a: "مكالمة فيديو مدتها 20 دقيقة. تحدثنا عن علامتك وأهدافك وميزانيتك، ونخبرك بصراحة إن كنا نستطيع مساعدتك وكيف. بعدها تصلك خلال 48 ساعة عرض واضح.",
+    fq3q: "مع أي نوع من العملاء تعملون؟",
+    fq3a: "بشكل أساسي مع العلامات الشخصية (مؤسسون، خبراء، صناع محتوى)، والمطاعم، وعلامات العافية والجمال، وشركات التقنية. علامة ناشئة أو راسخة، المهم هو رغبتك في التقدم.",
+    fq4q: "بأي لغة يمكننا التواصل؟",
+    fq4a: "بالفرنسية أو الإنجليزية أو العربية، كما تفضّل. ونصنع المحتوى بهذه اللغات الثلاث لنصل إلى جمهورك أينما كان.",
+    ft_tag: "استراتيجية ومحتوى ونمو للعلامات التي ترفض أن تكون غير مرئية.",
+    ft_c1: "الخدمات", ft_c2: "الاستوديو", ft_c3: "تواصل", ft_mail: "راسلنا", ft_copy: "© 2026 LOUD Studio. جميع الحقوق محفوظة."
+  }
+};
+
+var lang = "fr";
+function t(k) { return (T[lang] && T[lang][k]) || T.fr[k] || ""; }
+
+/* ===== LANGUE (même logique que le site, avec RTL et préférences partagées) ===== */
+function setLang(l) {
+  if (!T[l]) l = "fr";
+  lang = l;
+  var root = document.documentElement;
+  root.lang = l;
+  root.dir = l === "ar" ? "rtl" : "ltr";
+  document.body.classList.toggle("ar", l === "ar");
+  document.querySelectorAll(".lang-btn").forEach(function (b) {
+    var on = b.getAttribute("data-lang") === l;
+    b.classList.toggle("on", on);
+    b.setAttribute("aria-pressed", on ? "true" : "false");
+  });
+  document.querySelectorAll("[data-i18n]").forEach(function (el) {
+    var k = el.getAttribute("data-i18n");
+    if (T[l][k] !== undefined) el.textContent = T[l][k];
+  });
+  document.querySelectorAll("[data-i18n-ph]").forEach(function (el) {
+    var k = el.getAttribute("data-i18n-ph");
+    if (T[l][k] !== undefined) el.setAttribute("placeholder", T[l][k]);
+  });
+  document.querySelectorAll("[data-i18n-aria]").forEach(function (el) {
+    var k = el.getAttribute("data-i18n-aria");
+    if (T[l][k] !== undefined) el.setAttribute("aria-label", T[l][k]);
+  });
+  document.title = T[l].meta_title;
+  refreshErrors();   // les erreurs déjà affichées changent de langue aussi
+  hydrateLinks();    // le message WhatsApp de réservation suit la langue
+  try { localStorage.setItem("loud-lang", l); } catch (e) {}
+}
+
+/* ===== THÈME CLAIR / SOMBRE (même attribut data-theme que le site) ===== */
+var dark = document.documentElement.getAttribute("data-theme") !== "light";
+function syncThemeBtn() {
+  var btn = document.getElementById("themeBtn");
+  btn.setAttribute("aria-pressed", dark ? "false" : "true");
+  document.querySelector('meta[name="theme-color"]').setAttribute("content", dark ? "#0a0a0a" : "#f5f2ed");
+}
+function toggleTheme() {
+  dark = !dark;
+  document.documentElement.setAttribute("data-theme", dark ? "" : "light");
+  syncThemeBtn();
+  try { localStorage.setItem("loud-theme", dark ? "dark" : "light"); } catch (e) {}
+}
+
+/* ===== LIENS : coordonnées injectées depuis CONFIG ===== */
+function isSet(v) { return v && v.indexOf("YOUR_") === -1; }
+function hydrateLinks() {
+  var map = {
+    email: "mailto:" + CONFIG.EMAIL,
+    whatsapp: "https://wa.me/" + CONFIG.WHATSAPP,
+    instagram: CONFIG.INSTAGRAM,
+    linkedin: CONFIG.LINKEDIN,
+    // Sans lien de réservation configuré, on bascule sur WhatsApp avec un message prérempli
+    booking: isSet(CONFIG.BOOKING_URL) ? CONFIG.BOOKING_URL
+      : "https://wa.me/" + CONFIG.WHATSAPP + "?text=" + encodeURIComponent(t("book_wa"))
+  };
+  document.querySelectorAll("[data-link]").forEach(function (a) {
+    var href = map[a.getAttribute("data-link")];
+    if (href) a.setAttribute("href", href);
+  });
+  document.querySelectorAll('[data-text="email"]').forEach(function (el) { el.textContent = CONFIG.EMAIL; });
+  document.querySelectorAll('[data-text="whatsapp"]').forEach(function (el) { el.textContent = CONFIG.WHATSAPP_DISPLAY; });
+}
+
+/* ===== NAV : fond au scroll + menu mobile ===== */
+var nav = document.getElementById("nav");
+function onScroll() { nav.classList.toggle("scrolled", window.scrollY > 40); }
+window.addEventListener("scroll", onScroll, { passive: true });
+
+var ham = document.getElementById("ham"), mobNav = document.getElementById("mobNav");
+function toggleMenu(force) {
+  var open = typeof force === "boolean" ? force : !mobNav.classList.contains("open");
+  mobNav.classList.toggle("open", open);
+  ham.setAttribute("aria-expanded", open ? "true" : "false");
+  if (open) { var first = mobNav.querySelector("a"); if (first) first.focus(); }
+}
+ham.addEventListener("click", function () { toggleMenu(); });
+mobNav.querySelectorAll("a").forEach(function (a) { a.addEventListener("click", function () { toggleMenu(false); }); });
+document.addEventListener("keydown", function (e) {
+  if (e.key === "Escape" && mobNav.classList.contains("open")) { toggleMenu(false); ham.focus(); }
+});
+
+document.querySelectorAll(".lang-btn").forEach(function (b) {
+  b.addEventListener("click", function () {
+    setLang(b.getAttribute("data-lang"));
+    if (mobNav.contains(b)) toggleMenu(false);
+  });
+});
+document.getElementById("themeBtn").addEventListener("click", toggleTheme);
+
+/* ===== FAQ (accordéon accessible) ===== */
+document.querySelectorAll(".faq-q").forEach(function (btn) {
+  btn.addEventListener("click", function () {
+    var item = btn.closest(".faq-item");
+    var open = !item.classList.contains("open");
+    document.querySelectorAll(".faq-item.open").forEach(function (i) {
+      i.classList.remove("open");
+      i.querySelector(".faq-q").setAttribute("aria-expanded", "false");
+    });
+    item.classList.toggle("open", open);
+    btn.setAttribute("aria-expanded", open ? "true" : "false");
+  });
+});
+
+/* ===== RÉVÉLATION AU SCROLL (désactivée si mouvement réduit) ===== */
+(function () {
+  var els = document.querySelectorAll(".rev");
+  var reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (reduce || !("IntersectionObserver" in window)) { els.forEach(function (el) { el.classList.add("in"); }); return; }
+  var obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) { if (e.isIntersecting) { e.target.classList.add("in"); obs.unobserve(e.target); } });
+  }, { threshold: 0.08, rootMargin: "0px 0px -40px 0px" });
+  els.forEach(function (el) { obs.observe(el); });
+})();
+
+/* =========================================================
+   FORMULAIRE : validation, honeypot, envoi Web3Forms, fallback mailto
+   ========================================================= */
+var form = document.getElementById("contactForm");
+var F = form.elements;   // accès aux champs par leur name
+var card = document.getElementById("formCard");
+var statusEl = document.getElementById("formStatus");
+var submitBtn = document.getElementById("submitBtn");
+var submitLabel = document.getElementById("submitLabel");
+var touched = {};   // un champ n'affiche son erreur qu'après avoir été quitté ou après un envoi
+
+var EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+var RULES = {
+  name:    function () { return F.name.value.trim().length >= 2 ? "" : "e_name"; },
+  email:   function () { return EMAIL_RE.test(F.email.value.trim()) ? "" : "e_email"; },
+  brand:   function () { return F.brand.value.trim().length >= 2 ? "" : "e_brand"; },
+  service: function () { return form.querySelector('input[name="service"]:checked') ? "" : "e_service"; },
+  message: function () { return F.message.value.trim().length >= 10 ? "" : "e_message"; },
+  consent: function () { return F.consent.checked ? "" : "e_consent"; }
+};
+
+/* Affiche ou masque l'erreur d'un champ, avec aria-invalid */
+function showFieldState(name) {
+  var wrap = form.querySelector('[data-field="' + name + '"]');
+  var key = RULES[name]();
+  var invalid = !!key && !!touched[name];
+  wrap.classList.toggle("invalid", invalid);
+  wrap.querySelector(".err span").textContent = invalid ? t(key) : "";
+  var ctrls = name === "service" ? form.querySelectorAll('input[name="service"]') : [F[name]];
+  Array.prototype.forEach.call(ctrls, function (c) {
+    if (invalid) c.setAttribute("aria-invalid", "true"); else c.removeAttribute("aria-invalid");
+  });
+  return !key;
+}
+function refreshErrors() { Object.keys(RULES).forEach(function (n) { if (touched[n]) showFieldState(n); }); }
+
+/* Validation en direct : au départ du champ, puis à chaque saisie */
+["name", "email", "brand", "message"].forEach(function (n) {
+  F[n].addEventListener("blur", function () { if (F[n].value.trim()) { touched[n] = true; } showFieldState(n); });
+  F[n].addEventListener("input", function () { if (touched[n]) showFieldState(n); });
+});
+form.querySelectorAll('input[name="service"]').forEach(function (r) {
+  r.addEventListener("change", function () { touched.service = true; showFieldState("service"); });
+});
+F.consent.addEventListener("change", function () { touched.consent = true; showFieldState("consent"); });
+
+function setStatus(type, html) {
+  statusEl.className = "status" + (type ? " is-" + type : "");
+  statusEl.innerHTML = html || "";
+}
+function setLoading(on) {
+  submitBtn.setAttribute("aria-busy", on ? "true" : "false");
+  submitBtn.disabled = on;
+  submitLabel.textContent = on ? t("sending") : t("submit");
+}
+function getData() {
+  var svc = form.querySelector('input[name="service"]:checked');
+  return {
+    name: F.name.value.trim(),
+    email: F.email.value.trim(),
+    brand: F.brand.value.trim(),
+    service: svc ? svc.value : "",
+    budget: F.budget.value || "Non précisé",
+    message: F.message.value.trim()
+  };
+}
+function escapeHTML(s) { return String(s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
+
+/* Construit un lien mailto prérempli (fallback) */
+function buildMailto(d) {
+  var subject = t("mail_subject") + " · " + d.brand + " (" + d.service + ")";
+  var body = [
+    "Nom : " + d.name,
+    "Email : " + d.email,
+    "Marque : " + d.brand,
+    "Service : " + d.service,
+    "Budget : " + d.budget,
+    "",
+    d.message
+  ].join("\n");
+  return "mailto:" + CONFIG.EMAIL + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+}
+function mailLink() { return '<a href="mailto:' + CONFIG.EMAIL + '" dir="ltr">' + escapeHTML(CONFIG.EMAIL) + "</a>"; }
+
+function showSuccess() {
+  setLoading(false);
+  setStatus("", "");
+  card.classList.add("sent");
+  var s = document.getElementById("formSuccess");
+  s.setAttribute("role", "status");
+  s.focus({ preventScroll: true });
+  card.scrollIntoView({ behavior: window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "center" });
+}
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  // 1. Validation de tous les champs
+  var invalid = [];
+  Object.keys(RULES).forEach(function (n) { touched[n] = true; if (!showFieldState(n)) invalid.push(n); });
+  if (invalid.length) {
+    setStatus("", escapeHTML(t("e_summary").replace("{n}", invalid.length)));
+    var first = invalid[0] === "service" ? form.querySelector('input[name="service"]') : F[invalid[0]];
+    first.focus();
+    return;
+  }
+
+  // 2. Honeypot rempli : on simule un succès sans rien envoyer
+  if (F.website.value || F.botcheck.checked) { showSuccess(); return; }
+
+  var d = getData();
+
+  // 3. Clé Web3Forms absente : fallback direct vers l'app mail
+  if (!isSet(CONFIG.WEB3FORMS_KEY)) {
+    window.location.href = buildMailto(d);
+    setStatus("info", escapeHTML(t("mailto_info")) + " " + mailLink() + ".");
+    return;
+  }
+
+  // 4. Envoi via Web3Forms
+  setLoading(true);
+  setStatus("", "");
+  var ctrl = "AbortController" in window ? new AbortController() : null;
+  var timer = setTimeout(function () { if (ctrl) ctrl.abort(); }, 15000);
+
+  fetch("https://api.web3forms.com/submit", {
+    method: "POST",
+    headers: { "Content-Type": "application/json", "Accept": "application/json" },
+    body: JSON.stringify({
+      access_key: CONFIG.WEB3FORMS_KEY,
+      subject: "Nouveau contact LOUD Studio : " + d.name + " (" + d.service + ")",
+      from_name: "Site LOUD Studio",
+      replyto: d.email,
+      botcheck: false,
+      name: d.name,
+      email: d.email,
+      marque: d.brand,
+      service: d.service,
+      budget: d.budget,
+      message: d.message,
+      langue: lang,
+      page: location.href
+    }),
+    signal: ctrl ? ctrl.signal : undefined
+  })
+    .then(function (res) { return res.json().then(function (j) { return { ok: res.ok, json: j }; }); })
+    .then(function (r) {
+      clearTimeout(timer);
+      if (r.ok && r.json && r.json.success) { form.reset(); touched = {}; showSuccess(); }
+      else throw new Error((r.json && r.json.message) || "send_failed");
+    })
+    .catch(function () {
+      clearTimeout(timer);
+      setLoading(false);
+      setStatus("error",
+        "<span>" + escapeHTML(t("err_send")) + " " + mailLink() + "</span>" +
+        '<a class="btn-ghost" href="' + buildMailto(d) + '"><svg class="ico" aria-hidden="true"><use href="#i-mail"/></svg>' + escapeHTML(t("err_btn")) + "</a>");
+    });
+});
+
+/* Nouveau message après un succès */
+document.getElementById("againBtn").addEventListener("click", function () {
+  card.classList.remove("sent");
+  document.getElementById("formSuccess").removeAttribute("role");
+  form.reset();
+  touched = {};
+  Object.keys(RULES).forEach(showFieldState);
+  F.name.focus();
+});
+
+/* ===== INITIALISATION ===== */
+(function init() {
+  // Langue : préférence enregistrée, sinon ?lang=, sinon langue du navigateur, sinon français
+  var stored = null;
+  try { stored = localStorage.getItem("loud-lang"); } catch (e) {}
+  var param = new URLSearchParams(location.search).get("lang");
+  var nav2 = (navigator.language || "fr").slice(0, 2);
+  var initial = (param && T[param]) ? param : (stored && T[stored]) ? stored : (T[nav2] ? nav2 : "fr");
+  syncThemeBtn();
+  setLang(initial);
+  onScroll();
+})();
+</script>
+</body>
+</html>

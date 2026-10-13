@@ -478,7 +478,7 @@ footer{position:relative;z-index:10;border-top:1px solid var(--glass-b);padding:
     <li><a href="#work" data-i18n="n_work">Work</a></li>
     <li><a href="#process" data-i18n="n_proc">Process</a></li>
     <li><a href="#about" data-i18n="n_abt">Studio</a></li>
-    <li><a href="#contact" data-i18n="n_cnt">Contact</a></li>
+    <li><a href="contact.html" data-i18n="n_cnt">Contact</a></li>
   </ul>
   <div class="nav-r">
     <div class="lang-sw">
@@ -499,7 +499,7 @@ footer{position:relative;z-index:10;border-top:1px solid var(--glass-b);padding:
   <a href="#process" onclick="toggleMenu()" data-i18n="n_proc">Process</a>
   <a href="#about" onclick="toggleMenu()" data-i18n="n_abt">Studio</a>
   <a href="#plans" onclick="toggleMenu()" data-i18n="n_pln">Plans</a>
-  <a href="#contact" onclick="toggleMenu()" data-i18n="n_cnt">Contact</a>
+  <a href="contact.html" data-i18n="n_cnt">Contact</a>
   <div class="mob-btns">
     <button class="lang-btn on" onclick="setLang('en');toggleMenu()">EN</button>
     <button class="lang-btn" onclick="setLang('fr');toggleMenu()">FR</button>
@@ -1255,6 +1255,18 @@ document.querySelectorAll("a[href^='#']").forEach(function(a) {
   });
 });
 
+
+/* ===== PRÉFÉRENCES PARTAGÉES (langue + thème mémorisés pour contact.html et les autres pages) ===== */
+(function(){
+  var _setLang = setLang, _toggleTheme = toggleTheme;
+  setLang = function(l){ _setLang(l); try{ localStorage.setItem("loud-lang", l); }catch(e){} };
+  toggleTheme = function(){ _toggleTheme(); try{ localStorage.setItem("loud-theme", dark ? "dark" : "light"); }catch(e){} };
+  try{
+    var l = localStorage.getItem("loud-lang");
+    if (l === "fr" || l === "ar") setLang(l);
+    if (localStorage.getItem("loud-theme") === "light") _toggleTheme();
+  }catch(e){}
+})();
 </script>
 </body>
 </html>

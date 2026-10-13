@@ -669,6 +669,7 @@ footer{position:relative;z-index:10;border-top:1px solid var(--glass-b);padding:
     <li><a href="#" onclick="openPage('studio');return false" data-i18n="n_abt">Studio</a></li>
     <li><a href="#" onclick="openPage('blog');return false">Blog</a></li>
     <li><a href="#" onclick="openPage('plans');return false" data-i18n="n_pln">Plans</a></li>
+    <li><a href="contact.html" data-i18n="n_cnt">Contact</a></li>
   </ul>
   <div class="nav-r">
     <div class="lang-sw">
@@ -689,7 +690,7 @@ footer{position:relative;z-index:10;border-top:1px solid var(--glass-b);padding:
   <a href="#" onclick="openPage('process');toggleMenu();return false" data-i18n="n_proc">Process</a>
   <a href="#" onclick="openPage('studio');toggleMenu();return false" data-i18n="n_abt">Studio</a>
   <a href="#" onclick="openPage('plans');toggleMenu();return false" data-i18n="n_pln">Plans</a>
-  <a href="#" onclick="closeContact();toggleMenu();return false" data-i18n="n_cnt">Contact</a>
+  <a href="contact.html" data-i18n="n_cnt">Contact</a>
   <div class="mob-btns">
     <button class="lang-btn on" onclick="setLang('en');toggleMenu()">EN</button>
     <button class="lang-btn" onclick="setLang('fr');toggleMenu()">FR</button>
@@ -1660,6 +1661,18 @@ function openBlog(i){
 function openOverlay(id){document.getElementById(id).classList.add('open');document.body.style.overflow='hidden'}
 function closeOverlay(id){document.getElementById(id).classList.remove('open');if(!activePage)document.body.style.overflow=''}
 document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeOverlay('svcOverlay');closeOverlay('caseOverlay');closeOverlay('blogOverlay');if(activePage)closePage(activePage);}});
+
+/* ===== PRÉFÉRENCES PARTAGÉES (langue + thème mémorisés pour contact.html et les autres pages) ===== */
+(function(){
+  var _setLang = setLang, _toggleTheme = toggleTheme;
+  setLang = function(l){ _setLang(l); try{ localStorage.setItem("loud-lang", l); }catch(e){} };
+  toggleTheme = function(){ _toggleTheme(); try{ localStorage.setItem("loud-theme", dark ? "dark" : "light"); }catch(e){} };
+  try{
+    var l = localStorage.getItem("loud-lang");
+    if (l === "fr" || l === "ar") setLang(l);
+    if (localStorage.getItem("loud-theme") === "light") _toggleTheme();
+  }catch(e){}
+})();
 </script>
 </body>
 </html>
