@@ -61,8 +61,7 @@
     "availableLanguage": ["French", "English", "Arabic"]
   },
   "sameAs": [
-    "https://instagram.com/loudstudio.co",
-    "https://www.linkedin.com/company/loudstudio"
+    "https://instagram.com/loudstudio.co"
   ]
 }
 </script>
@@ -345,7 +344,7 @@ body.ar .success h3{font-family:var(--ff-ar);font-weight:900;line-height:1.3;let
 .success-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
 
 /* ============ CARTES DE CONTACT ============ */
-.cards{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
 .card{position:relative;display:flex;flex-direction:column;gap:18px;min-height:220px;padding:28px 24px;background:var(--glass);border:1px solid var(--glass-b);border-radius:16px;overflow:hidden;backdrop-filter:blur(12px);transition:transform .45s var(--ease),border-color .3s,box-shadow .45s,background .3s}
 .card::after{content:"";position:absolute;top:-50px;inset-inline-end:-50px;width:160px;height:160px;border-radius:50%;background:radial-gradient(circle,rgba(200,80,26,.22) 0%,transparent 70%);opacity:0;transform:scale(.6);transition:opacity .5s,transform .5s;pointer-events:none}
 .card:hover,.card:focus-visible{transform:translateY(-6px);border-color:rgba(200,80,26,.35);box-shadow:0 24px 64px rgba(0,0,0,.3),0 0 40px rgba(200,80,26,.12)}
@@ -420,7 +419,6 @@ body.ar .ft-socials a,body.ar .ft-copy{letter-spacing:0}
 
 /* ============ RESPONSIVE (mobile first vérifié à 375 / 768 / 1280) ============ */
 @media (max-width:1100px){
-  .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
   .infos{grid-template-columns:repeat(2,minmax(0,1fr))}
 }
 @media (max-width:1024px){
@@ -451,6 +449,9 @@ body.ar .ft-socials a,body.ar .ft-copy{letter-spacing:0}
   .book-side,.book-side .btn-main{width:100%}
   .ft-top{grid-template-columns:1fr 1fr;gap:32px}
   .ft-bottom{flex-direction:column;align-items:flex-start}
+}
+@media (max-width:860px){
+  .cards{grid-template-columns:1fr}
 }
 @media (max-width:560px){
   .promise{letter-spacing:.12em}
@@ -485,7 +486,6 @@ body.ar .ft-socials a,body.ar .ft-copy{letter-spacing:0}
     <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 7 8.5 6 8.5-6"/></symbol>
     <symbol id="i-whatsapp" viewBox="0 0 24 24"><path d="M3.6 20.4 4.9 16A8.6 8.6 0 1 1 8 19.1z"/><path d="M9 8.2c.2-.4.5-.5.8-.5h.5c.2 0 .4.1.5.4l.7 1.6c.1.2 0 .5-.1.7l-.5.6c.6 1.2 1.6 2.2 2.8 2.8l.6-.5c.2-.2.5-.2.7-.1l1.6.7c.3.1.4.3.4.5v.5c0 .3-.1.6-.5.8-.6.4-1.4.5-2.2.2a8.6 8.6 0 0 1-4.9-4.9c-.3-.8-.2-1.6.2-2.2z"/></symbol>
     <symbol id="i-instagram" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r=".9" fill="currentColor" stroke="none"/></symbol>
-    <symbol id="i-linkedin" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="3"/><path d="M8 10.5V17M8 7.2v.1M12 17v-6.5M12 13.5c0-1.8 1-3 2.5-3s2.5 1 2.5 3V17"/></symbol>
     <symbol id="i-calendar" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M16 3v4M8 3v4M3 10h18M8 14h3"/></symbol>
     <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></symbol>
     <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></symbol>
@@ -703,12 +703,6 @@ body.ar .ft-socials a,body.ar .ft-copy{letter-spacing:0}
           <span><span class="card-k">Instagram</span><span class="card-v" data-text="instagram" dir="ltr">@loudstudio.co</span></span>
           <span class="card-d" data-i18n="c_ig_d">Pour voir nos derniers projets en coulisses.</span>
         </a>
-        <a class="card rev rev-d3" data-link="linkedin" href="https://www.linkedin.com/company/loudstudio" target="_blank" rel="noopener">
-          <span class="card-ico" aria-hidden="true"><svg class="ico"><use href="#i-linkedin"/></svg></span>
-          <span class="card-arr" aria-hidden="true"><svg class="ico"><use href="#i-arrow"/></svg></span>
-          <span><span class="card-k">LinkedIn</span><span class="card-v" data-text="linkedin" dir="ltr">LOUD Studio</span></span>
-          <span class="card-d" data-i18n="c_li_d">Pour les échanges pro et les partenariats.</span>
-        </a>
       </div>
     </div>
   </section>
@@ -828,7 +822,6 @@ body.ar .ft-socials a,body.ar .ft-copy{letter-spacing:0}
     <span class="ft-copy" data-i18n="ft_copy">© 2026 LOUD Studio. Tous droits réservés.</span>
     <div class="ft-socials">
       <a data-link="instagram" href="https://instagram.com/loudstudio.co" target="_blank" rel="noopener">Instagram</a>
-      <a data-link="linkedin" href="https://www.linkedin.com/company/loudstudio" target="_blank" rel="noopener">LinkedIn</a>
       <a data-link="whatsapp" href="https://wa.me/33751078260" target="_blank" rel="noopener">WhatsApp</a>
     </div>
   </div>
@@ -845,7 +838,6 @@ var CONFIG = {
   WHATSAPP: "33751078260",                              // numéro au format international, sans + ni espaces
   WHATSAPP_DISPLAY: "+33 7 51 07 82 60",
   INSTAGRAM: "https://instagram.com/loudstudio.co",
-  LINKEDIN: "https://www.linkedin.com/company/loudstudio", // à vérifier
   BOOKING_URL: "https://calendly.com/loud-digitalstudio/new-meeting-clone" // lien Calendly
 };
 
@@ -900,7 +892,6 @@ var T = {
     c_email_d: "Pour les briefs détaillés et les pièces jointes.",
     c_wa_d: "Pour une question rapide, on répond vite.",
     c_ig_d: "Pour voir nos derniers projets en coulisses.",
-    c_li_d: "Pour les échanges pro et les partenariats.",
     book_tag: "Appel découverte", book_t1: "On en parle", book_t2: "de vive voix ?",
     book_lead: "20 minutes en visio pour faire connaissance, comprendre ton projet et voir si on est faits pour avancer ensemble. Sans engagement.",
     book_btn: "Réserver un appel de 20 min", book_meta: "Gratuit · Visio · Sans engagement",
@@ -968,7 +959,6 @@ var T = {
     c_email_d: "For detailed briefs and attachments.",
     c_wa_d: "For a quick question, we reply fast.",
     c_ig_d: "To see our latest projects behind the scenes.",
-    c_li_d: "For business talks and partnerships.",
     book_tag: "Discovery call", book_t1: "Rather talk", book_t2: "face to face?",
     book_lead: "20 minutes on video to get to know each other, understand your project and see if we're a good fit. No strings attached.",
     book_btn: "Book a 20 min call", book_meta: "Free · Video call · No commitment",
@@ -1036,7 +1026,6 @@ var T = {
     c_email_d: "للتفاصيل الكاملة والملفات المرفقة.",
     c_wa_d: "لسؤال سريع، نرد بسرعة.",
     c_ig_d: "لاكتشاف أحدث مشاريعنا من الكواليس.",
-    c_li_d: "للتواصل المهني والشراكات.",
     book_tag: "مكالمة تعارف", book_t1: "نتحدث", book_t2: "وجهاً لوجه؟",
     book_lead: "20 دقيقة عبر الفيديو لنتعرف عليك ونفهم مشروعك ونرى إن كنا مناسبين للعمل معاً. بدون أي التزام.",
     book_btn: "احجز مكالمة من 20 دقيقة", book_meta: "مجانية · فيديو · بدون التزام",
@@ -1115,7 +1104,6 @@ function hydrateLinks() {
     email: "mailto:" + CONFIG.EMAIL,
     whatsapp: "https://wa.me/" + CONFIG.WHATSAPP,
     instagram: CONFIG.INSTAGRAM,
-    linkedin: CONFIG.LINKEDIN,
     // Sans lien de réservation configuré, on bascule sur WhatsApp avec un message prérempli
     booking: isSet(CONFIG.BOOKING_URL) ? CONFIG.BOOKING_URL
       : "https://wa.me/" + CONFIG.WHATSAPP + "?text=" + encodeURIComponent(t("book_wa"))
